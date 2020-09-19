@@ -3,7 +3,7 @@
 
 
 <h2> Install SinMod </h2>
-1. Download SinMod from our <a href="https://merqsquad.com">MerQ Squad</a> website.<br>
+1. Download SinMod from <a href="https://drive.google.com/file/d/1DbUHaMJXwK0zPmzx_0Kw49zEMa8Pzp_e/view?usp=sharing">Here</a> Our Google Drive.<br>
 2. Go to your Steam application and right click on 7 Days to Die.<br>
 3. Select <Properties> and choose the <Local Files> tab.<br>
 4. Select <Browse Local Files>, this should open a seperate window where your game in installed.<br>
