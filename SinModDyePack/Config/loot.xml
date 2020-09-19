@@ -1,0 +1,40 @@
+<SinModDyePack>
+    <append xpath="/lootcontainers/lootgroup[@name='dyes']">
+        <item name="modDyeRed"/>
+        <item name="modDyeGreen"/>
+        <item name="modDyeBlack"/>
+        <item name="modDyeBlue"/>
+        <item name="modDyeBrown"/>
+        <item name="modDyePurple"/>
+        <item name="modDyeYellow"/>
+        <item name="modDyeOrange"/>
+        <item name="modDyeBeige"/>
+        <item name="modDyeTan"/>
+        <item name="modDyeSilver"/>
+        <item name="modDyeGray"/>
+        <item name="modDyeCharcoal"/>
+        <item name="modDyeNavyBlue"/>
+        <item name="modDyeRoyalBlue"/>
+        <item name="modDyeAzure"/>
+        <item name="modDyeCyan"/>
+        <item name="modDyeAquamarine"/>
+        <item name="modDyeTeal"/>
+        <item name="modDyeForestGreen"/>
+        <item name="modDyeOlive"/>
+        <item name="modDyeChartreuse"/>
+        <item name="modDyeLime"/>
+        <item name="modDyeGolden"/>
+        <item name="modDyeCoral"/>
+        <item name="modDyeSalmon"/>
+        <item name="modDyeHotPink"/>
+        <item name="modDyeFuchsia"/>
+        <item name="modDyePuce"/>
+        <item name="modDyeMauve"/>
+        <item name="modDyeLavender"/>
+        <item name="modDyePlum"/>
+        <item name="modDyeIndigo"/>
+        <item name="modDyeMaroon"/>
+        <item name="modDyeCrimson"/>
+
+    </append>
+</SinModDyePack>

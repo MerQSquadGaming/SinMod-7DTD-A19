@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinMod Boulder Respawner" />
+		<Description value="Destroy boulder, they will leave a stone that you can not pick up, but you can destroy it.  This stone will eventually regenerate back into a boulder." />
+		<Author value="SinisterMind81" />
+		<Version value="2.1.0" />
+		<Website value="https://www.merqsquad.com" />
+	</ModInfo>
+</xml>

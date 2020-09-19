@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModCarRespawner" />
+		<Description value="Respawns cars on the map every 7 days once broke down completely" />
+		<Author value="Sinistermind81" />
+		<Version value="2.1.0" />
+		<Website value="https://www.merqsquad.com" />
+	</ModInfo>
+</xml>

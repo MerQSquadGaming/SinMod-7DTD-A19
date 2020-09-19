@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="SinModAddedSeatVehicles"/>
+    <Description value="Increased how many player can ride in the Jeep, Motorcycle, Gyrocopter, and minibike"/>
+    <Author value="Sinistermind81"/>
+    <Version value="2.0.3"/>
+    <Website value="https://www.merqsquad.com"/>
+  </ModInfo>
+</xml>

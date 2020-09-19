@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+  <ModInfo>
+    <Name value="SinMod60BPM"/>
+    <Description value="Increased inventory slot to 60"/>
+    <Author value="Sinistermind81"/>
+    <Version value="1.0.4"/>
+    <Website value="https://www.merqsquad.com"/>
+  </ModInfo>
+</xml>

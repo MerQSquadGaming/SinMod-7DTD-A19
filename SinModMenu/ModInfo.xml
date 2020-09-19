@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModMenu" />
+		<Description value="Custom menu for MerQ Squad hosted servers using SinMod Modlet pack." />
+		<Author value="SinisterMind81" />
+		<Version value="2.0.4" />
+	</ModInfo>
+</xml>

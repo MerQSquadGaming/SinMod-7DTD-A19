@@ -1,0 +1,165 @@
+<SinModFlags>
+    <append xpath="/blocks">
+        <block name="flagMain">
+            <property name="Class" value="LandClaim"/>
+            <property name="CreativeMode" value="Dev"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="DisplayType" value="blockMulti" />
+            <property name="MultiBlockDim" value="1,20,1"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="OnlySimpleRotations" value="true"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+            <drop event="Harvest" name="resourceMetalPipe" count="4,8" tag="salvageHarvest"/>
+            <drop event="Harvest" name="resourceScrapIron" count="2,5" tag="allHarvest"/>
+            <drop event="Destroy" name="resourceScrapIron" count="2,5"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagMain" />
+            <property name="CustomIcon" value="flagMain" />
+            <property name="TakeDelay" value="30"/>
+        </block>
+        <block name="flagMerq">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagMerq" />
+            <property name="CustomIcon" value="flagMerq" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagBunny">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagBunny" />
+            <property name="CustomIcon" value="flagBunny" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagUsa">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagUsa" />
+            <property name="CustomIcon" value="flagUsa" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagDove">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagDove" />
+            <property name="CustomIcon" value="flagDove" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagDog">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagDog" />
+            <property name="CustomIcon" value="flagDog" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagSinMod">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagSinMod" />
+            <property name="CustomIcon" value="flagSinMod" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagViking">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagViking" />
+            <property name="CustomIcon" value="flagViking" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagCroatia">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagCroatia" />
+            <property name="CustomIcon" value="flagCroatia" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagMenu">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagMenu" />
+            <property name="CustomIcon" value="flagMenu" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagSniper">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagSniper" />
+            <property name="CustomIcon" value="flagSniper" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagSam">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagSam" />
+            <property name="CustomIcon" value="flagSam" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagKiss">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagKiss" />
+            <property name="CustomIcon" value="flagKiss" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagMoon">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagMoon" />
+            <property name="CustomIcon" value="flagMoon" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagMenuXmas">
+            <property name="Extends" value="flagMain"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?flagMenuXmas" />
+            <property name="CustomIcon" value="flagMenuXmas" />
+            <property name="CreativeMode" value="Dev"/>
+        </block>
+        <block name="flagBlockVariantHelper">
+            <property name="Extends" value="flagMain"/>
+            <property name="CustomIcon" value="flagMain"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="flagMain,flagUsa,flagBunny,flagMerq,flagDove,flagDog,flagSinMod,flagViking,flagCroatia,flagMenu,flagSniper,flagSam,flagKiss,flagMoon,flagMenuXmas"/>
+        </block>
+        <!--
+        <block name="bannerMain">
+            <property name="CreativeMode" value="Dev"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="DisplayType" value="blockMulti" />
+            <property name="MultiBlockDim" value="3,4,3"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="Path" value="solid"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="OnlySimpleRotations" value="true"/>
+            <property name="Collide" value="movement,melee,bullet,arrow,rocket"/>
+            <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
+            <drop event="Harvest" name="resourceMetalPipe" count="4,8" tag="salvageHarvest"/>
+            <drop event="Harvest" name="resourceScrapIron" count="2,5" tag="allHarvest"/>
+            <drop event="Destroy" name="resourceScrapIron" count="2,5"/>
+            <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
+            <property name="DescriptionKey" value="decorativeBlockGroupDesc"/>
+            <property name="Shape" value="ModelEntity" />
+            <property name="Model" value="#@modfolder:Resources/flagSinMod.unity3d?bannerMain" />
+            <property name="CustomIcon" value="bannerMain" />
+            <property name="TakeDelay" value="30"/>
+        </block>
+        <block name="bannerBlockVariantHelper">
+            <property name="Extends" value="flagMain"/>
+            <property name="CustomIcon" value="flagMain"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="DescriptionKey" value="blockVariantHelperGroupDesc"/>
+            <property name="ItemTypeIcon" value="all_blocks"/>
+            <property name="SelectAlternates" value="true" />
+            <property name="PlaceAltBlockValue" value="flagMain,flagUsa,flagBunny,flagMerq,flagDove,flagDog,flagSinMod,flagViking,flagCroatia,flagMenu"/>
+        </block>
+        -->
+    </append>
+</SinModFlags>
