@@ -1,0 +1,9 @@
+<SinModVehicleHorns>
+
+    <set xpath="/vehicles/vehicle[@name='vehicleBicycle']/property[@name='hornSound']/@value">sinmodBikeBell</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleMinibike']/property[@name='hornSound']/@value">sinmodMinibikeHorn</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleMotorcycle']/property[@name='hornSound']/@value">sinmodMotorcycleHorn</set>
+    <set xpath="/vehicles/vehicle[@name='vehicle4x4Truck']/property[@name='hornSound']/@value">sinmodTruckHorn</set>
+    <set xpath="/vehicles/vehicle[@name='vehicleGyrocopter']/property[@name='hornSound']/@value">sinmodGyrocopterHorn</set>
+
+</SinModVehicleHorns>
