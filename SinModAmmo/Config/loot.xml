@@ -1,0 +1,22 @@
+<SinModAmmo>
+    <append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvancedGunslinger']">
+        <item name="ammo9mmBulletINC" loot_prob_template="QLTemplateT2" count="7,30"/>
+        <item name="ammo44MagnumBulletINC" loot_prob_template="QLTemplateT2" count="7,30"/>
+        <item name="ammo762mmBulletINC" loot_prob_template="QLTemplateT2" count="7,30"/>
+        <item name="ammoShotgunShellINC" loot_prob_template="QLTemplateT2" count="7,30"/>
+
+
+        <item name="ammo9mmBulletINC" loot_prob_template="QLTemplateT2" count="10,40"/>
+        <item name="ammo44MagnumBulletINC" loot_prob_template="QLTemplateT2" count="10,40"/>
+        <item name="ammo762mmBulletINC" loot_prob_template="QLTemplateT2" count="10,40"/>
+        <item name="ammoShotgunShellINC" loot_prob_template="QLTemplateT2" count="10,40"/>
+    </append>
+
+    <append xpath="/lootcontainers/lootgroup[@name='groupAmmoAdvanced']">
+        <item name="ammo9mmBulletINC" count="8,24"/>
+        <item name="ammo44MagnumBulletINC" count="8,24"/>
+        <item name="ammo762mmBulletINC" count="8,24"/>
+        <item name="ammoShotgunShellINC" count="8,24"/>
+    </append>
+
+</SinModAmmo>

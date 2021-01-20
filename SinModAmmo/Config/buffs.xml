@@ -1,0 +1,108 @@
+<SinModAmmo>
+    <append xpath="/buffs">
+        <buff name="buffBurningIncendiaryBullet" hidden="true">
+            <damage_type value="heat"/>
+            <stack_type value="replace"/>
+            <duration value="0"/>
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar="$buffBurningIncendiaryBulletDuration" operation="add" value="-1"/>
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBurningIncendiaryBulletDuration" operation="set" value="0"/>
+            </effect_group>
+
+            <effect_group>
+                <requirement name="CVarCompare" cvar="$buffBurningIncendiaryBulletDuration" operation="LT" value="14"/>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar="$buffBurningIncendiaryBulletDuration" operation="set" value="14"/>
+                <triggered_effect trigger="onSelfBuffStack" action="ModifyCVar" cvar="$buffBurningIncendiaryBulletDuration" operation="set" value="14"/>
+            </effect_group>
+
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningIncendiaryBullet">
+                    <requirement name="CVarCompare" cvar="$buffBurningIncendiaryBulletDuration" operation="LTE" value="0"/>
+                </triggered_effect>
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar="$buffBurningIncendiaryBulletDuration" operation="set" value="0"/>
+            </effect_group>
+
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="AddBuff" buff="buffIncendiaryFire"/>
+
+                <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,12,16" value="4,12.3,15">
+                    <requirement name="EntityTagCompare" tags="player"/>
+                </passive_effect>
+
+                <passive_effect name="WaterChangeOT" operation="base_subtract" value="1.5"/>
+                <passive_effect name="HypothermalResist" operation="base_add" value="35"/>
+                <passive_effect name="HyperthermalResist" operation="base_add" value="-15"/>
+            </effect_group>
+
+            <effect_group>
+                <requirement name="!EntityTagCompare" tags="player"/>
+                <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,12,16" value="8,26.9,30">
+                    <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="0"/>
+                </passive_effect>
+                <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,12,16" value="6,18.4,22.5">
+                    <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="1"/>
+                </passive_effect>
+                <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,12,16" value="4,12.3,15">
+                    <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="2"/>
+                </passive_effect>
+                <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,12,16" value="3.32,10.2,12.5">
+                    <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="3"/>
+                </passive_effect>
+                <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,12,16" value="2.64,8.1,9.9">
+                    <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="4"/>
+                </passive_effect>
+                <passive_effect name="HealthChangeOT" operation="base_subtract" duration="0,12,16" value="2,6.1,7.5">
+                    <requirement name="CVarCompare" cvar="_difficulty" operation="Equals" value="5"/>
+                </passive_effect>
+            </effect_group>
+        </buff>
+
+        <buff name="buffIncendiaryFire" name_key="buffIncendiaryFireName" description_key="buffIncendiaryFireDesc" tooltip_key="buffIncendiaryFireTooltip" icon="ui_game_symbol_fire" icon_color="255,0,0" icon_blink="true">
+            <damage_type value="Heat"/>
+            <stack_type value="ignore"/>
+            <duration value="0"/>
+            <update_rate value="1"/>
+            <display_value value=".buffIncendiaryFireDisplay"/>
+            <display_value_format value="time"/>
+            <!-- bookkeeping for all burning buffs -->
+
+            <effect_group>                <!-- extinguish any fire if wet or if buffExtinguishFire is executed -->
+                <requirements compare_type="or">
+                    <requirement name="RandomRoll" seed_type="Random" min_max=".7,1" operation="LTE" value="@_wetness"/>
+                    <requirement name="HasBuff" buff="buffExtinguishFire"/>
+                </requirements>
+
+                <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffBurningIncendiaryBullet"/>
+            </effect_group>
+
+            <effect_group>
+                <triggered_effect trigger="onSelfBuffStart" action="ModifyCVar" cvar=".buffIncendiaryFireDisplay" operation="set" value="@$buffBurningIncendiaryBulletDuration"/>
+
+
+                <triggered_effect trigger="onSelfBuffUpdate" action="ModifyCVar" cvar=".buffIncendiaryFireDisplay" operation="set" value="@$buffBurningIncendiaryBulletDuration"/>
+
+            </effect_group>
+
+            <effect_group>                <!-- terminate only if all burn buffs are gone -->
+                <requirements>
+                    <requirement name="NotHasBuff" buff="buffBurningIncendiaryBullet"/>
+                    <!-- torch, burning zombie -->
+                </requirements>
+                <triggered_effect trigger="onSelfBuffUpdate" action="RemoveBuff" buff="buffIncendiaryFire"/>
+            </effect_group>
+
+            <effect_group name="run particles, cleanup">
+                <triggered_effect trigger="onSelfBuffRemove" action="ModifyCVar" cvar=".buffIncendiaryFireDisplay" operation="set" value="0"/>
+
+                <triggered_effect trigger="onSelfBuffStart" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="Hips"/>
+                <triggered_effect trigger="onSelfEnteredGame" action="AttachParticleEffectToEntity" particle="p_onFire" local_offset="0,-.2,0" parent_transform="Hips"/>
+
+                <triggered_effect trigger="onSelfBuffRemove" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+                <triggered_effect trigger="onSelfDied" action="RemoveParticleEffectFromEntity" particle="p_onFire"/>
+
+                <triggered_effect trigger="onSelfBuffStart" action="AddJournalEntry" journal="onFireTip"/>
+            </effect_group>
+        </buff>
+    </append>
+
+</SinModAmmo>
