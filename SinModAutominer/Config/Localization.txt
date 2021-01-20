@@ -1,0 +1,8 @@
+﻿Key,Source,Context,Changes,English
+
+autoMinerOff,blocks,Workstation,KgNone,Auto Miner (Off),,,,
+autoMinerOffDesc,blocks,Workstation,KgNone,Needs Fuel,,,,
+autoMinerOn,blocks,Workstation,KgNone,Auto Miner (On),,,,
+autoMinerOnDesc,blocks,Workstation,KgNone,Running,,,,
+autoMinerCompartment,blocks,Workstation,KgNone,Auto Miner Compartment,,,,
+autoMinerCompartmentDesc,blocks,Workstation,KgNone,Extendable compartment for storing resources,,,,
