@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModAdmin" />
+		<Description value="Contains admin blocks for SinMod" />
+		<Author value="Sinistermind81" />
+		<Version value="2.1.5" />
+		<Website value="https://www.merqsquad.com" />
+	</ModInfo>
+</xml>
