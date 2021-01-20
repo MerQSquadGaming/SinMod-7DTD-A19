@@ -1,2 +1,0 @@
-Key,Source,Context,Changes,English
-adminConcreteBlockVariantHelper,items,Admin,New,Admin Block Selector

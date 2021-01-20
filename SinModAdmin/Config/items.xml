@@ -1,3 +1,0 @@
-<SinModAdmin>
-    <set xpath="/items/item[@name='gunToolDiggerAdmin']/effect_group/passive_effect[@name='BlockDamage']/@value">999999999</set>
-</SinModAdmin>
