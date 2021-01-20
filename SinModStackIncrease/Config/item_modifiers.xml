@@ -1,0 +1,5 @@
+<SinModStackIncrease>
+
+<set xpath="/item_modifiers/item_modifier[@modifier_tags='dye']/property[@name='Stacknumber'][@value='1']/@value">100</set>
+
+</SinModStackIncrease>

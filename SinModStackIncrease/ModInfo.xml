@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModStackIncrease" />
+		<Description value="Increases stack size of blocks and items" />
+		<Author value="SinisterMind81" />
+		<Version value="2.2.1" />
+	</ModInfo>
+</xml>
