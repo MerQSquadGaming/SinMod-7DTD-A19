@@ -1,4 +1,4 @@
-<Configs>
+<SinModStorageDecor>
 
 <append xpath="/lootcontainers">
  <!-- PALLETS -->
@@ -49,4 +49,4 @@
  
 </append>
 
-</Configs>
+</SinModStorageDecor>
