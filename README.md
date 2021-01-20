@@ -8,12 +8,21 @@
 3. Select <Properties> and choose the <Local Files> tab.<br>
 4. Select <Browse Local Files>, this should open a seperate window where your game in installed.<br>
 5. Open the SinMod-master.zip file and drag and drop the <Mods> folder directly in here.<br>
-6. In the Game Directory open Data>Config and drag all the files from the SinMod Data/Config into this folder.<br>
-
 
 <h2> Contents</h2>
 
-* Custom Starter Classes <Hitman, Bruiser, Survivalist, Conartist, Engineer>
-* 50+ new foods and drinks
-* Custom Zombies
+* Backpack now contains 60 slots.
+* Vehicles not hold more survivors (2-minibike, 2-gyrocopter, 4-jeep, 2-motocycle).
 * Special Admin Blocks for building in game events and lobbies (can only be broke with Dev: Digger)
+* Added the ability to dismantle all bullets and craft Incendiary rounds for most ammo types.
+* Autominer takes gas to mine resources for you while you exploring.
+* Automatically respawns boulders and cars in game after a certain amount of time.
+* Able to craft a working Jail door.
+* Special crate for donor to how you survive.
+* Custom Flag land claim blocks (Custom Flags can be added for a small donation).
+* Now you can craft pallets and shelves that can actually store items.
+* Now there are 3 slot in the forge to assist in smelting.
+* Craft level 6 tools and weapons.
+* Stacks have increased so you can hold more.
+* Custom Horn sounds for vehicles.
+* Working kitchen sinks and stoves can give you drinking water or dirty water. 
