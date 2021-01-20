@@ -1,0 +1,23 @@
+<SinModStackIncrease>
+
+<!--<set xpath="/items/item/property[@name='Stacknumber' and (contains(@value,'6000'))]/@value">10000</set>
+
+<set xpath="/items/item/property[@name='Stacknumber' and not (contains(@value,'1'))]/@value">5000</set>-->
+
+<set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">5000</set>
+
+<set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">20000</set>
+
+<set xpath="/items/item[starts-with(@name, 'resource')]/property[@name='Stacknumber']/@value">10000</set>
+
+<set xpath="/items/item[starts-with(@name, 'medical')]/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/items/item[starts-with(@name, 'drug')]/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/items/item[starts-with(@name, 'drink')]/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/items/item[starts-with(@name, 'food')]/property[@name='Stacknumber']/@value">500</set>
+
+<set xpath="/items/item[starts-with(@name, 'casino')]/property[@name='Stacknumber']/@value">30000</set>
+
+</SinModStackIncrease>
