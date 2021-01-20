@@ -1,0 +1,5 @@
+<SinModAddedSeatVehicles>
+    <set xpath="/archetypes/archetype[@name='BaseMale']/base_mesh_parts/part[@mesh='unisex_gear_backpack01']/@mesh">unisex_base_back</set>
+    <set xpath="/archetypes/archetype[@name='BaseMale']/base_mesh_parts/part/texture[@name='unisex_gear_backpack01']/@name">unisex_base_back</set>
+    <set xpath="/archetypes/archetype[@name='BaseMale']/base_mesh_parts/part/texture[@name='unisex_base_back']/@color">skin</set>
+</SinModAddedSeatVehicles>
