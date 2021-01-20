@@ -1,9 +1,5 @@
 <SinModStackIncrease>
 
-<!--<set xpath="/items/item/property[@name='Stacknumber' and (contains(@value,'6000'))]/@value">10000</set>
-
-<set xpath="/items/item/property[@name='Stacknumber' and not (contains(@value,'1'))]/@value">5000</set>-->
-
 <set xpath="/items/item[starts-with(@name, 'ammo')]/property[@name='Stacknumber']/@value">5000</set>
 
 <set xpath="/items/item[@name='ammoGasCan']/property[@name='Stacknumber']/@value">20000</set>
