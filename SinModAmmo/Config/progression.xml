@@ -1,0 +1,37 @@
+<SinModAmmo>
+    <append xpath="/progression/perks/perk[@name='perkPistolPeteHPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle9mmBulletHP
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkPistolPeteAPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle9mmBulletAP
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkPistolPeteComplete']/effect_group/passive_effect[@level='1']/@tags">,ammo9mmBulletINC,ammoDismantle9mmBulletINC,ammoBundle9mmBulletINC
+    </append>
+
+
+    <append xpath="/progression/perks/perk[@name='perkEnforcerAPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle44MagnumBulletAP
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkEnforcerHPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle44MagnumBulletHP
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkEnforcerComplete']/effect_group/passive_effect[@level='1']/@tags">,ammo44MagnumBulletINC,ammoDismantle44MagnumBulletINC,ammoBundle44MagnumBulletINC
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkSniperAPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle762mmBulletAP
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkSniperHPAmmo']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantle762mmBulletHP
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkSniperComplete']/effect_group/passive_effect[@level='1']/@tags">,ammo762mmBulletINC,ammoDismantle762mmBulletINC,ammoBundle762mmBulletINC
+    </append>
+
+    <append xpath="/progression/perks/perk[@name='perkShotgunMessiahSlugs']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantleShotgunSlug
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkShotgunMessiahBreachingSlugs']/effect_group/passive_effect[@level='1']/@tags">,ammoDismantleShotgunBreachingSlug
+    </append>
+    <append xpath="/progression/perks/perk[@name='perkShotgunMessiahComplete']/effect_group/passive_effect[@level='1']/@tags">,ammoShotgunShellINC,ammoDismantleShotgunShellINC,ammoBundleShotgunShellINC
+    </append>
+
+
+
+
+
+
+
+</SinModAmmo>

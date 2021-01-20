@@ -1,0 +1,516 @@
+<SinModAmmo>
+    <append xpath="/items">
+        <item name="ammo9mmBulletINC">
+            <property name="Extends" value="ammo9mmBulletBall"/>
+            <property name="EconomicValue" value="14"/>
+            <property name="Stacknumber" value="250" />
+            <property name="DescriptionKey" value="ammoBulletINCDesc"/>
+            <property name="UnlockedBy" value="perkPistolPeteComplete"/>
+            <effect_group name="ammo9mmBulletINC" tiered="false">
+                <passive_effect name="EntityDamage" operation="base_set" value="52.2"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="5"/>
+                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+                <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+                    <requirement name="EntityTagCompare" target="self" tags="zombie"/>
+                </triggered_effect>
+                <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurningFlamingArrow"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffBurningFlamingArrow">
+                    <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+                </triggered_effect>
+            </effect_group>
+        </item>
+        <item name="ammoBundle9mmBulletINC">
+            <property name="Extends" value="ammoBundleMaster"/>
+            <property name="CustomIcon" value="ammo9mmBulletINC"/>
+            <property name="UnlockedBy" value="perkPistolPeteComplete"/>
+            <property class="Action0">
+                <property name="Create_item" value="ammo9mmBulletINC"/>
+            </property>
+        </item>
+        <item name="ammoDismantle9mmBulletBall">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,10,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantle9mmBulletAP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkPistolPeteAPAmmo"/>
+
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,20,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantle9mmBulletHP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkPistolPeteHPAmmo"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="20,10,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantle9mmBulletINC">
+            <property name="CustomIcon" value="ammoDismantleINCBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkPistolPeteComplete"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceFireTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,20,10"/>
+            </property>
+        </item>
+
+        <item name="ammo44MagnumBulletINC">
+            <property name="Extends" value="ammo44MagnumBulletBall"/>
+            <property name="EconomicValue" value="15"/>
+            <property name="Stacknumber" value="250" />
+            <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+            <property name="DescriptionKey" value="ammoBulletINCDesc"/>
+            <property name="UnlockedBy" value="perkEnforcerComplete"/>
+            <effect_group name="Base Effects" tiered="false">
+                <passive_effect name="EntityDamage" operation="base_set" value="101.3"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="8"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+                    <requirement name="EntityTagCompare" target="self" tags="zombie"/>
+                </triggered_effect>
+                <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurningFlamingArrow"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffBurningFlamingArrow">
+                    <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+                </triggered_effect>
+            </effect_group>
+        </item>
+        <item name="ammoBundle44MagnumBulletINC">
+            <property name="Extends" value="ammoBundleMaster"/>
+            <property name="CustomIcon" value="ammo44MagnumBulletINC"/>
+            <property name="UnlockedBy" value="perkEnforcerComplete"/>
+            <property class="Action0">
+                <property name="Create_item" value="ammo44MagnumBulletINC"/>
+            </property>
+        </item>
+        <item name="ammoDismantle44MagnumBulletBall">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,30,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantle44MagnumBulletHP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkEnforcerHPAmmo"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="20,30,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantle44MagnumBulletAP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkEnforcerAPAmmo"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,50,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantle44MagnumBulletINC">
+            <property name="CustomIcon" value="ammoDismantleINCBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkEnforcerComplete"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceFireTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,50,10"/>
+            </property>
+        </item>
+
+        <item name="ammo762mmBulletINC">
+            <property name="Extends" value="ammo762mmBulletBall"/>
+            <property name="EconomicValue" value="16"/>
+            <property name="Stacknumber" value="250" />
+            <property name="Group" value="Ammo/Weapons,AllRounds,SpecialAmmo"/>
+            <property name="DescriptionKey" value="ammoBulletINCDesc"/>
+            <property name="UnlockedBy" value="perkSniperComplete"/>
+            <effect_group name="Base Effects" tiered="false">
+                <passive_effect name="EntityDamage" operation="base_set" value="82.3"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="6"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+                    <requirement name="EntityTagCompare" target="self" tags="zombie"/>
+                </triggered_effect>
+                <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurningFlamingArrow"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffBurningFlamingArrow">
+                    <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+                </triggered_effect>
+            </effect_group>
+        </item>
+        <item name="ammoBundle762mmBulletINC">
+            <property name="Extends" value="ammoBundleMaster"/>
+            <property name="CustomIcon" value="ammo762mmBulletINC"/>
+            <property name="UnlockedBy" value="perkSniperComplete"/>
+            <property class="Action0">
+                <property name="Create_item" value="ammo762mmBulletINC"/>
+            </property>
+        </item>
+        <item name="ammoDismantle762mmBulletBall">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,30,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantle762mmBulletHP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkSniperHPAmmo"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="20,30,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantle762mmBulletAP">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkSniperAPAmmo"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,50,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantle762mmBulletINC">
+            <property name="CustomIcon" value="ammoDismantleINCBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkSniperComplete"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceFireTip,resourceGunPowder,resourceBulletCasing"/>
+                <property name="Create_item_count" value="10,40,10"/>
+            </property>
+        </item>
+
+        <item name="ammoShotgunShellINC">
+            <property name="Tags" value="ammo,shotgun"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mlead_scrap"/>
+            <property name="Stacknumber" value="250"/>
+            <!-- STK ammo low -->
+            <property name="EconomicValue" value="20"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property name="DescriptionKey" value="ammoBulletINCDesc"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahComplete"/>
+            <effect_group name="Base Effects" tiered="false">
+                <passive_effect name="EntityDamage" operation="base_set" value="80"/>
+                <passive_effect name="BlockDamage" operation="base_set" value="10"/>
+                <passive_effect name="RoundRayCount" operation="base_set" value="1"/>
+                <passive_effect name="MaxRange" operation="base_set" value="4"/>
+                <passive_effect name="DamageFalloffRange" operation="base_set" value="1"/>
+                <passive_effect name="SpreadDegreesVertical" operation="base_set" value="2.4"/>
+                <passive_effect name="SpreadDegreesHorizontal" operation="base_set" value="2.4"/>
+                <passive_effect name="SpreadMultiplierAiming" operation="perc_add" value="-.35"/>
+                <passive_effect name="SpreadMultiplierCrouching" operation="perc_add" value="-.05"/>
+                <passive_effect name="SpreadMultiplierWalking" operation="perc_add" value=".15"/>
+                <passive_effect name="SpreadMultiplierRunning" operation="perc_add" value=".3"/>
+                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="earth"/>
+                <passive_effect name="DamageModifier" operation="perc_add" value="1" tags="wood"/>
+                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="metal"/>
+                <passive_effect name="DamageModifier" operation="perc_add" value="-.9" tags="stone"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="other" buff="buffBurningFlamingArrow">
+                    <requirement name="EntityTagCompare" target="self" tags="zombie"/>
+                </triggered_effect>
+                <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurningFlamingArrow"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="RemoveBuff" target="self" buff="buffBurning"/>
+                <triggered_effect trigger="onSelfDamagedOther" action="AddBuff" target="otherAOE" range="1" buff="buffBurningFlamingArrow">
+                    <requirement name="RandomRoll" seed_type="Random" target="self" min_max="0,100" operation="LTE" value="50"/>
+                </triggered_effect>
+            </effect_group>
+        </item>
+        <item name="ammoBundleShotgunShellINC">
+            <property name="Extends" value="ammoBundleMaster"/>
+            <property name="CustomIcon" value="ammoShotgunShellINC"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahComplete"/>
+            <property class="Action0">
+                <property name="Create_item" value="ammoShotgunShellINC"/>
+            </property>
+        </item>
+        <item name="ammoDismantleShotgunShell">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBuckshot,resourceGunPowder,resourcePaper"/>
+                <property name="Create_item_count" value="10,20,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantleShotgunShellINC">
+            <property name="CustomIcon" value="ammoDismantleINCBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahComplete"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceFireTip,resourceClayLump,resourceGunPowder,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="20,20,40,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantleShotgunSlug">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahSlugs"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceBulletTip,resourceGunPowder,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="30,30,10"/>
+            </property>
+        </item>
+        <item name="ammoDismantleShotgunBreachingSlug">
+            <property name="CustomIcon" value="ammoDismantleBullet" />
+            <property name="ItemTypeIcon" value="bundle"/>
+            <property name="DescriptionKey" value="ammoDismantleBundleGroupDesc"/>
+            <property name="UnlockedBy" value="perkShotgunMessiahBreachingSlugs"/>
+            <property name="HoldType" value="45"/>
+            <property name="Meshfile" value="#Other/Items?Misc/sackPrefab.prefab"/>
+            <property name="DropMeshfile" value="#Other/Items?Misc/sack_droppedPrefab.prefab"/>
+            <property name="Material" value="Mmetal"/>
+            <property name="Stacknumber" value="5"/>
+            <!-- STK ammobundle -->
+            <property name="Weight" value="0"/>
+            <property name="Group" value="Ammo/Weapons"/>
+            <property class="Action0">
+                <property name="Class" value="OpenBundle"/>
+                <property name="Delay" value="0"/>
+                <property name="Use_time" value="0"/>
+                <property name="Sound_start" value="close_garbage"/>
+                <property name="Create_item" value="resourceForgedSteel,resourceClayLump,resourceGunPowder,resourceScrapPolymers"/>
+                <property name="Create_item_count" value="40,20,40,10"/>
+            </property>
+        </item>
+
+        <item name="resourceFireTip">
+            <property name="Extends" value="resourceBulletTip" />
+            <property name="DescriptionKey" value="resourceFireTipDesc"/>
+            <property name="Group" value="Ammo/Weapons"/>
+        </item>
+        <item name="resourceEmptyFireTip">
+            <property name="Extends" value="resourceBulletTip" />
+            <property name="DescriptionKey" value="resourceEmptyFireTipDesc"/>
+            <property name="Group" value="Ammo/Weapons"/>
+        </item>
+    </append>
+
+    <append xpath="/items/item[@name='gunHandgunT1Pistol']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo9mmBulletINC</append>
+    <append xpath="/items/item[@name='gunHandgunT2Magnum44']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo44MagnumBulletINC</append>
+    <append xpath="/items/item[@name='gunHandgunT3DesertVulture']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo44MagnumBulletINC</append>
+    <append xpath="/items/item[@name='gunHandgunT3SMG5']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo9mmBulletINC</append>
+
+    <append xpath="/items/item[@name='gunShotgunT1DoubleBarrel']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoShotgunShellINC</append>
+    <append xpath="/items/item[@name='gunShotgunT2PumpShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoShotgunShellINC</append>
+    <append xpath="/items/item[@name='gunShotgunT3AutoShotgun']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammoShotgunShellINC</append>
+
+    <append xpath="/items/item[@name='gunRifleT1HuntingRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletINC</append>
+    <append xpath="/items/item[@name='gunRifleT2MarksmanRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletINC</append>
+    <append xpath="/items/item[@name='gunRifleT3SniperRifle']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletINC</append>
+    <append xpath="/items/item[@name='gunMGT1AK47']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletINC</append>
+    <append xpath="/items/item[@name='gunMGT2TacticalAR']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletINC</append>
+    <append xpath="/items/item[@name='gunMGT3M60']/property[@class='Action0']/property[@name='Magazine_items']/@value">,ammo762mmBulletINC</append>
+</SinModAmmo>

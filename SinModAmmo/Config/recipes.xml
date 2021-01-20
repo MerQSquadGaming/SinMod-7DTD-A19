@@ -1,0 +1,110 @@
+<SinModAmmo>
+    <append xpath="/recipes">
+        <recipe name="ammo9mmBulletINC" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceFireTip" count="1" />
+            <ingredient name="resourceGunPowder" count="2"/>
+            <ingredient name="resourceBulletCasing" count="1"/>
+        </recipe>
+        <recipe name="ammoDismantle9mmBulletINC" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo9mmBulletINC" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantle9mmBulletBall" count="1" craft_area="workbench">
+            <ingredient name="ammo9mmBulletBall" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantle9mmBulletAP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo9mmBulletAP" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantle9mmBulletHP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo9mmBulletHP" count="10"/>
+        </recipe>
+        <recipe name="ammoBundle9mmBulletINC" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceFireTip" count="80"/>
+            <ingredient name="resourceGunPowder" count="160"/>
+            <ingredient name="resourceBulletCasing" count="80"/>
+        </recipe>
+
+
+        <recipe name="ammo44MagnumBulletINC" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceFireTip" count="1" />
+            <ingredient name="resourceGunPowder" count="5"/>
+            <ingredient name="resourceBulletCasing" count="1"/>
+        </recipe>
+        <recipe name="ammoDismantle44MagnumBulletINC" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo44MagnumBulletINC" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantle44MagnumBulletBall" count="1" craft_area="workbench">
+            <ingredient name="ammo44MagnumBulletBall" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantle44MagnumBulletHP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo44MagnumBulletHP" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantle44MagnumBulletAP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo44MagnumBulletAP" count="10"/>
+        </recipe>
+        <recipe name="ammoBundle44MagnumBulletINC" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceFireTip" count="80"/>
+            <ingredient name="resourceGunPowder" count="400"/>
+            <ingredient name="resourceBulletCasing" count="80"/>
+        </recipe>
+
+        <recipe name="ammo762mmBulletINC" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceFireTip" count="1" />
+            <ingredient name="resourceGunPowder" count="4"/>
+            <ingredient name="resourceBulletCasing" count="1"/>
+        </recipe>
+        <recipe name="ammoDismantle762mmBulletINC" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo762mmBulletINC" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantle762mmBulletBall" count="1" craft_area="workbench">
+            <ingredient name="ammo762mmBulletBall" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantle762mmBulletHP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo762mmBulletHP" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantle762mmBulletAP" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammo762mmBulletAP" count="10"/>
+        </recipe>
+        <recipe name="ammoBundle762mmBulletINC" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceFireTip" count="80"/>
+            <ingredient name="resourceGunPowder" count="320"/>
+            <ingredient name="resourceBulletCasing" count="80"/>
+        </recipe>        
+
+        <recipe name="ammoShotgunShellINC" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceFireTip" count="2"/>
+            <ingredient name="resourceClayLump" count="2"/>
+            <ingredient name="resourceGunPowder" count="4"/>
+            <ingredient name="resourceScrapPolymers" count="1"/>
+        </recipe>
+        <recipe name="ammoDismantleShotgunShellINC" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammoShotgunShellINC" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantleShotgunShell" count="1" craft_area="workbench">
+            <ingredient name="ammoShotgunShell" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantleShotgunSlug" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammoShotgunSlug" count="10"/>
+        </recipe>
+        <recipe name="ammoDismantleShotgunBreachingSlug" count="1" craft_area="workbench" tags="learnable">
+            <ingredient name="ammoShotgunBreachingSlug" count="10"/>
+        </recipe>
+        <recipe name="ammoBundleShotgunShellINC" count="1" craft_area="workbench" tags="learnable,workbenchCrafting">
+            <ingredient name="resourceFireTip" count="160"/>
+            <ingredient name="resourceClayLump" count="160"/>
+            <ingredient name="resourceGunPowder" count="320"/>
+            <ingredient name="resourceScrapPolymers" count="80"/>
+        </recipe> 
+
+
+        <recipe name="resourceEmptyFireTip" count="1" material_based="true" craft_area="forge" tags="forgeCrafting">
+            <ingredient name="unit_lead" count="3"/>
+            <ingredient name="unit_clay" count="1"/>
+        </recipe>
+        <recipe name="resourceFireTip" count="1" craft_area="workbench" tags="workbenchCrafting">
+            <ingredient name="ammoGasCan" count="1"/>
+            <ingredient name="resourcePotassiumNitratePowder" count="1"/>
+            <ingredient name="resourceEmptyFireTip" count="1"/>
+        </recipe>
+
+    </append>
+</SinModAmmo>

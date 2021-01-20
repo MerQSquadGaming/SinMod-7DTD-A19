@@ -1,0 +1,44 @@
+Key,Source,Context,Changes,English
+
+ammoDismantleBundleGroupDesc,items,Ammo,New,Break down ammo to its original components.\n\nUse this item to take the compents out of the ammo.,,
+
+ammo44MagnumBulletINC,items,Item Gun,,.44 Magnum Incendiary Bullet,,
+ammoDismantle44MagnumBulletBall,items,Ammo,New,Dismantled - .44 Magnum Ball Bullets,,
+ammoDismantle44MagnumBulletHP,items,Ammo,New,Dismantled - .44 Magnum HP Bullets,,
+ammoDismantle44MagnumBulletAP,items,Ammo,New,Dismantled - .44 Magnum AP Bullets,,
+ammoDismantle44MagnumBulletINC,items,Ammo,New,Dismantled - .44 Magnum INC Bullets,,
+ammoBundle44MagnumBulletINC,items,Ammo,New,Box of .44 Magnum INC Ammo (100),,
+
+ammo9mmBulletINC,items,Item Gun,,9mm Incendiary Bullet,,
+ammoDismantle9mmBulletBall,items,Ammo,New,Dismantled - 9mm Ball Bullets,,
+ammoDismantle9mmBulletHP,items,Ammo,New,Dismantled - 9mm HP Bullets,,
+ammoDismantle9mmBulletAP,items,Ammo,New,Dismantled - 9mm AP Bullets,,
+ammoDismantle9mmBulletINC,items,Ammo,New,Dismantled - 9mm INC Bullets,,
+ammoBundle9mmBulletINC,items,Ammo,New,Box of 9mm INC Ammo (100),,
+
+ammo762mmBulletINC,items,Item Gun,,7.62mm Incendiary Bullet,,
+ammoDismantle762mmBulletBall,items,Ammo,New,Dismantled - 7.62mm Ball Bullets,,
+ammoDismantle762mmBulletHP,items,Ammo,New,Dismantled - 7.62mm HP Bullets,,
+ammoDismantle762mmBulletAP,items,Ammo,New,Dismantled - 7.62mm AP Bullets,,
+ammoDismantle762mmBulletINC,items,Ammo,New,Dismantled - 7.62mm INC Bullets,,
+ammoBundle762mmBulletINC,items,Ammo,New,Box of 7.62mm INC Ammo (100),,
+
+ammoShotgunShellINC,items,Item Gun,,Shotgun INC Shell,,
+ammoDismantleShotgunShell,items,Ammo,New,Dismantled - Shotgun Shells,,
+ammoDismantleShotgunSlug,items,Ammo,New,Dismantled - Shotgun Slugs,,
+ammoDismantleShotgunBreachingSlug,items,Ammo,New,Dismantled - Shotgun Breaching Slug,,
+ammoDismantleShotgunShellINC,items,Ammo,New,Dismantled - Shotgun INC Shells,,
+ammoBundleShotgunShellINC,items,Ammo,New,Box of INC Shotgun Shells (100),,
+
+
+
+resourceEmptyFireTip,items,Item Gun,,Empty Incendiary Tip,,
+resourceEmptyFireTipDesc,items,Item Gun,,These bullet tips have been hollowed out to allow to be filled with fire compound for incendiary rounds.,,
+resourceFireTip,items,Item Gun,,Filled Incendiary Tip,,
+resourceFireTipDesc,items,Item Gun,,These bullet tips have been filled with fire compound for incendiary rounds.,,
+
+
+
+
+
+ammoBulletINCDesc,items,Item Gun,,These bullets have been modified to ignite the target on fire on impact.,,
