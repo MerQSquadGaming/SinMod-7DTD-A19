@@ -1,4 +1,4 @@
-<center><a href="https://merqsquad.com"><img src="https://merqsquad.com/img/SinModUILogo.png" title="MerQ Squad" alt="SinMod"></a>
+<center><a href=""><img src="https://imgur.com/dhz5fKu" title="MerQ Squad" alt="SinMod"></a>
 <h1>SinMod a 7 Day to Die server mod</h1></center>
 
 
