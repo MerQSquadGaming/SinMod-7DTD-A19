@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModForgeSlotx3" />
+		<Description value="Adds an extra slot to the forge input" />
+		<Author value="SinisterMind81" />
+		<Version value="1.0" />
+		<Website value="https://www.merqsquad.com" />
+	</ModInfo>
+</xml>

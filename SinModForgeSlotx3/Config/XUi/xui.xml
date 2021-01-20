@@ -1,0 +1,4 @@
+<SinModForgeSlotx3>
+	<!-- SinMod Forge input slots -->
+	<set xpath="/xui/ruleset[@name='default']/window_group[@name='workstation_forge']/window[@name='windowForgeInput']/@name">SinModwindowForgeInput</set>
+</SinModForgeSlotx3>
