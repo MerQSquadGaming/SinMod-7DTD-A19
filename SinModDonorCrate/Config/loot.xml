@@ -1,0 +1,145 @@
+<SinModDonorCrate>
+    <append xpath="/lootcontainers">
+        <!--Donor Crate-->
+        <lootgroup name="DonorAmmo" count="5">
+            <item name="ammo9mmBulletBall" count="100"/>
+            <item name="ammo9mmBulletAP" count="100"/>
+            <item name="ammo9mmBulletHP" count="100"/>
+            <item name="ammo44MagnumBulletBall" count="100"/>
+            <item name="ammo44MagnumBulletAP" count="100"/>
+            <item name="ammo44MagnumBulletHP" count="100"/>
+            <item name="ammo762mmBulletBall" count="100"/>
+            <item name="ammo762mmBulletAP" count="100"/>
+            <item name="ammo762mmBulletHP" count="100"/>
+            <item name="ammoArrowStone" count="100"/>
+            <item name="ammoArrowIron" count="100"/>
+            <item name="ammoArrowSteelAP" count="100"/>
+            <item name="ammoArrowFlaming" count="100"/>
+            <item name="ammoCrossbowBoltStone" count="100"/>
+            <item name="ammoCrossbowBoltIron" count="100"/>
+            <item name="ammoCrossbowBoltSteelAP" count="100"/>
+            <item name="ammoCrossbowBoltFlaming" count="100"/>
+            <item name="ammoShotgunShell" count="100"/>
+            <item name="ammoShotgunSlug" count="100"/>
+            <item name="ammoShotgunBreachingSlug" count="100"/>
+        </lootgroup>
+        <lootgroup name="DonorSchematic" count="2">
+            <item name="modGunBarrelExtenderSchematic"/>
+            <item name="modGunMuzzleBrakeSchematic"/>
+            <item name="modGunSoundSuppressorSilencerSchematic"/>
+            <item name="modGunLaserSightSchematic"/>
+            <item name="modGunFlashlightSchematic"/>
+            <item name="modGunScopeSmallSchematic"/>
+            <item name="modGunScopeMediumSchematic"/>
+            <item name="modGunScopeLargeSchematic"/>
+            <item name="modGunReflexSightSchematic"/>
+            <item name="modGunTriggerGroupSemiSchematic"/>
+            <item name="modGunTriggerGroupBurst3Schematic"/>
+            <item name="modGunTriggerGroupAutomaticSchematic"/>
+            <item name="modGunBipodSchematic"/>
+            <item name="modGunForegripSchematic"/>
+            <item name="modGunRetractingStockSchematic"/>
+            <item name="modShotgunSawedOffBarrelSchematic"/>
+            <item name="modGunDuckbillSchematic"/>
+            <item name="modGunChokeSchematic"/>
+            <item name="modGunMagazineExtenderSchematic"/>
+            <item name="modGunCrippleEmSchematic"/>
+            <item name="modGunBowPolymerStringSchematic"/>
+            <item name="modGunBowArrowRestSchematic"/>
+            <item name="modGunMeleeTheHunterSchematic"/>
+            <item name="modGunMeleeRadRemoverSchematic"/>
+            <item name="modGunMeleeBlessedMetalSchematic"/>
+            <item name="modMeleeTemperedBladeSchematic"/>
+            <item name="modMeleeSerratedBladeSchematic"/>
+            <item name="modMeleeWeightedHeadSchematic"/>
+            <item name="modMeleeStructuralBraceSchematic"/>
+            <item name="modMeleeErgonomicGripSchematic"/>
+            <item name="modMeleeFortifyingGripSchematic"/>
+            <item name="modMeleeClubBarbedWireSchematic"/>
+            <item name="modMeleeClubMetalSpikesSchematic"/>
+            <item name="modMeleeGraveDiggerSchematic"/>
+            <item name="modMeleeBunkerBusterSchematic"/>
+            <item name="modMeleeIronBreakerSchematic"/>
+            <item name="modMeleeWoodSplitterSchematic"/>
+            <item name="modMeleeClubBurningShaftSchematic"/>
+            <item name="modArmorInsulatedLinerSchematic"/>
+            <item name="modArmorCoolingMeshSchematic"/>
+            <item name="modArmorImprovedFittingsSchematic"/>
+            <item name="modArmorCustomizedFittingsSchematic"/>
+            <item name="modArmorPlatingBasicSchematic"/>>
+            <item name="modArmorPlatingReinforcedSchematic"/>
+            <item name="modArmorStoragePocketSchematic"/>
+            <item name="modArmorDoubleStoragePocketSchematic"/>
+            <item name="modArmorTripleStoragePocketSchematic"/>
+            <item name="modArmorMuffledConnectorsSchematic"/>
+            <item name="modArmorAdvancedMuffledConnectorsSchematic"/>
+            <item name="modArmorImpactBracingSchematic"/>
+            <item name="modArmorBandolierSchematic"/>
+            <item name="modArmorWaterPurifierSchematic"/>
+            <item name="modArmorHelmetLightSchematic"/>
+            <item name="modFuelTankSmallSchematic"/>
+            <item name="modFuelTankLargeSchematic"/>
+        </lootgroup>
+        <lootgroup name="DonorMeds" count="4">
+            <item name="medicalBandage"/>
+            <item name="medicalFirstAidBandage"/>
+            <item name="medicalFirstAidKit"/>
+            <item name="medicalSplint"/>
+            <item name="medicalPlasterCast"/>
+            <item name="medicalBloodBag"/>
+            <item name="drugVitamins"/>
+            <item name="drugPainkillers"/>
+            <item name="drugHerbalAntibiotics"/>
+            <item name="drugAntibiotics"/>
+            <item name="drugSteroids"/>
+            <item name="drugRecog"/>
+            <item name="drugFortBites"/>
+        </lootgroup>
+        <lootgroup name="DonorDrinks" count="10">
+            <item name="drinkJarPureMineralWater"/>
+            <item name="drinkJarYuccaJuice"/>
+            <item name="drinkJarGoldenRodTea"/>
+            <item name="drinkJarRedTea"/>
+            <item name="drinkJarYuccaCocktail"/>
+            <item name="drinkYuccaJuiceSmoothie"/>
+            <item name="drinkCanMegaCrush"/>
+            <item name="drinkJarCoffee"/>
+            <item name="drinkJarBlackStrapCoffee"/>
+            <item name="drinkJarBeer"/>
+            <item name="drinkJarGrandpasMoonshine"/>
+            <item name="drinkJarGrandpasAwesomeSauce"/>
+            <item name="drinkJarGrandpasLearningElixir"/>
+            <item name="drinkJarGrandpasForgettingElixir"/>
+        </lootgroup>
+        <lootgroup name="DonorFood" count="10">
+            <item name="foodMeatStew"/>
+            <item name="foodSteakAndPotato"/>
+            <item name="foodShamChowder"/>
+            <item name="foodHoboStew"/>
+            <item name="foodFishTacos"/>
+            <item name="foodChiliDog"/>
+            <item name="foodBlueberryPie"/>
+            <item name="foodPumpkinPie"/>
+            <item name="foodPumpkinCheesecake"/>
+            <item name="foodPumpkinBread"/>
+            <item name="foodGumboStew"/>
+            <item name="foodShepardsPie"/>
+            <item name="foodSpaghetti"/>
+            <item name="foodTunaFishGravyToast"/>
+            <item name="foodEggBoiled"/>
+            <item name="foodBaconAndEggs"/>
+            <item name="foodVegetableStew"/>
+            <item name="foodHoney"/>
+        </lootgroup>
+        <lootgroup name="DonorCrate" count="all">
+            <item group="DonorAmmo"/>
+            <item group="DonorSchematic"/>
+            <item group="DonorMeds"/>
+            <item group="DonorDrinks"/>
+            <item group="DonorFood"/>
+        </lootgroup>
+        <lootcontainer id="176" count="1" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate" >
+            <item group="DonorCrate"/>
+        </lootcontainer>
+    </append>
+</SinModDonorCrate>
