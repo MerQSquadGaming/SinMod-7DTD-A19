@@ -1,0 +1,4 @@
+<SinModWorkingKitchen>		
+<!-- SinMod Add oven and sink to progression -->
+<append xpath="/progression/perks/perk[@name='perkMasterChef']/effect_group/passive_effect[@level='3,5']/@tags">,workingOven,workingStove,workingCabinetSink,workingGraniteSink,workingUtilitySink,resourceSinkFilter</append>
+</SinModWorkingKitchen>
