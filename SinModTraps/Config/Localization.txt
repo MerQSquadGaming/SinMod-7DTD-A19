@@ -1,0 +1,7 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+trapFire,,blocks,Block,New,Fire Trap,,,,,
+trapFireDesc,,blocks,Block,New,This trap sets whatever walks over it on fire. When it goes out you can refill it using gasoline.,,,,,
+trapSteelFireSpike,,blocks,Block,New,Steel Fire Spike,,,,,
+trapSteelFireSpikeDesc,,blocks,Block,New,This Trap sets targets on fire.,,,,,
+trapFireEmpty,,blocks,Block,New,Empty Fire Trap,,,,,
+perkAdvancedEngineeringRank4LongDesc,progression,perk Int,,,"Learn to craft shotgun turrets for short range concentrated base defense, battery banks, nail guns and Steel Fire Traps. Gain 35% XP from electrical trap kills.\nAll forge recipes cost 15% less, crafting Forged Steel and electrical devices costs 25% less."

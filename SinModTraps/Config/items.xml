@@ -1,0 +1,19 @@
+<SinModTraps>
+    <insertAfter xpath="/items/item[@name='ammoGasCan']/property[@name='FuelValue']">
+
+        <property name="DegradationBreaksAfter" value="false"/>
+        <property class="Action1">
+            <!-- AttackAction -->
+            <property name="Class" value="Repair"/>
+            <property name="Delay" value="0.4"/>
+            <property name="Repair_amount" value="1"/>
+            <property name="Upgrade_hit_offset" value="0"/>
+            <property name="Sound_start" value="Auger_Reload"/>
+            <property name="Allowed_upgrade_items" value="ammoGasCan"/>
+            <property name="UsePowerAttackAnimation" value="false"/>
+        </property>
+        <effect_group name="Base Effects" tiered="false">
+            <passive_effect name="DegradationMax" operation="base_set" value="100" />
+        </effect_group>
+    </insertAfter>
+</SinModTraps>
