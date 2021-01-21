@@ -5,10 +5,10 @@
         <property class="Action1">
             <!-- AttackAction -->
             <property name="Class" value="Repair"/>
-            <property name="Delay" value="0.4"/>
+            <property name="Delay" value="0.2"/>
             <property name="Repair_amount" value="1"/>
             <property name="Upgrade_hit_offset" value="0"/>
-            <property name="Sound_start" value="repair_block"/>
+            <property name="Sound_start" value="Auger_Reload"/>
             <property name="Allowed_upgrade_items" value="ammoGasCan"/>
             <property name="UsePowerAttackAnimation" value="false"/>
         </property>
