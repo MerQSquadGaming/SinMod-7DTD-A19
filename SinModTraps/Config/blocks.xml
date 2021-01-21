@@ -1,7 +1,8 @@
-<Valmar>
+<SinModTraps>
 	<append xpath="/blocks">
 		<block name="trapFireEmpty">
 			<property name="CustomIcon" value="trapFire" />
+			<property name="DescriptionKey" value="trapFireDesc"/>
 			<property name="Material" value="Msteel" />
 			<property name="Texture" value="356,352,352,352,352,352" />
 			<property class="UpgradeBlock">
@@ -15,7 +16,6 @@
 			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 		</block>
 		<block name="trapFire">
-			<property name="DescriptionKey" value="trapFireDesc"/>
 			<property name="Class" value="Damage" />
 			<property name="Damage" value="30" />
 			<property name="Damage_received" value="30" />
@@ -59,4 +59,4 @@
 
 	</append>
 
-</Valmar>
+</SinModTraps>
