@@ -1,16 +1,16 @@
 <SinModStarterBag>
 	<append xpath="/quests">
 
-		<quest id="challenge_SinQuest1" group_name_key="quest_SinQuest" name="SinQuest Quest 1/3" subtitle="The Sin Challenge 1" description="Go kill some zombies" icon="ui_game_symbol_zombie" repeatable="false" category_key="challenge" offer="A real survivor knows how to kill his enemies.  Go show us you have what it takes." difficulty="easy">
+		<quest id="challenge_sinstarter1" group_name_key="quest_sinstarter" name="The Sin Challenge 1/3" subtitle="The Sin Challenge 1" description="Go eliminate 100 zombies" icon="ui_game_symbol_zombie" repeatable="false" category_key="challenge" offer="Hey Survivor,\nA real badass knows how to kill his enemies and live to talk about it.\nGo show us you have what it takes kill 100 Zombies using a pistol." difficulty="easy">
 			<requirement type="Holding" id="gunHandgunT1Pistol" />
-			<objective type="ZombieKill" value="100" />
-			<reward type="Quest" id="SinQuest_visit_trader1" />
+			<objective type="ZombieKill" value="75" />
+			<reward type="Quest" id="sinstarter_visit_trader1" />
 		</quest>
 
-		<quest id="SinQuest_visit_trader1">
-			<property name="group_name" value="quest_SinQuest" />
+		<quest id="sinstarter_visit_trader1">
+			<property name="group_name" value="quest_sinstarter" />
 			<property name="offer" value="Report your deeds to the trader"/>
-			<property name="name" value="SinQuest Visit Trader 1" />
+			<property name="name" value="SinStarter Visit Trader 1" />
 			<property name="description" value="Return to the Trader to receive your next task." />
 			<property name="icon" value="ui_game_symbol_map_trader" />
 			<property name="category_key" value="quest" />
@@ -27,19 +27,19 @@
 			<reward type="Item" id="modGunLaserSight" value="1" />
 			<reward type="Item" id="resourceRepairKit" value="1" />
 			<reward type="Item" id="ammo9mmBulletBall" value="150" />
-			<reward type="Quest" id="challenge_hunter2" />
+			<reward type="Quest" id="challenge_sinstarter2" />
 		</quest>
 
-		<quest id="challenge_SinQuest2" group_name_key="quest_SinQuest" name="SinQuest Quest 2/3" subtitle="The Sin Challenge 2" description="Go kill some zombies" icon="ui_game_symbol_zombie" repeatable="false" category_key="challenge" offer="You did good rookie, now do it again." difficulty="Medium">
+		<quest id="challenge_sinstarter2" group_name_key="quest_sinstarter" name="The Sin Challenge 2/3" subtitle="The Sin Challenge 2" description="Go eliminate 200 more zombies" icon="ui_game_symbol_zombie" repeatable="false" category_key="challenge" offer="You did good rookie, now do it again." difficulty="Medium">
 			<requirement type="Holding" id="gunHandgunT1Pistol" />
-			<objective type="ZombieKill" value="200" />
-			<reward type="Quest" id="SinQuest_visit_trader2" />
+			<objective type="ZombieKill" value="150" />
+			<reward type="Quest" id="sinstarter_visit_trader2" />
 		</quest>
 
-		<quest id="SinQuest_visit_trader2">
-			<property name="group_name" value="quest_SinQuest" />
+		<quest id="sinstarter_visit_trader2">
+			<property name="group_name" value="quest_sinstarter" />
 			<property name="offer" value="Report your deeds to the trader"/>
-			<property name="name" value="SinQuest Visit Trader 2" />
+			<property name="name" value="SinStarter Visit Trader 2" />
 			<property name="description" value="Return to the Trader to receive your next task." />
 			<property name="icon" value="ui_game_symbol_map_trader" />
 			<property name="category_key" value="quest" />
@@ -58,19 +58,19 @@
 			<reward type="Item" id="bookPistolPeteSwissKnees" value="1" />
 			<reward type="Item" id="modGunFlashlight" value="1" />
 			<reward type="Item" id="ammo9mmBulletBall" value="300" />
-			<reward type="Quest" id="challenge_hunter3" />
+			<reward type="Quest" id="challenge_sinstarter3" />
 		</quest>
 
-		<quest id="challenge_SinQuest3" group_name_key="quest_SinQuest" name="SinQuest Quest 3/3" subtitle="The Sin Challenge 3" description="Go kill some zombies" icon="ui_game_symbol_zombie" repeatable="false" category_key="challenge" offer="You got skills kid.  Lets see if you can manage to survive this last task." difficulty="Hard">
+		<quest id="challenge_sinstarter3" group_name_key="quest_sinstarter" name="The Sin Challenge 3/3" subtitle="The Sin Challenge 3" description="Go eliminate 300 more zombies" icon="ui_game_symbol_zombie" repeatable="false" category_key="challenge" offer="You got skills kid.  Lets see if you can manage to survive this last task." difficulty="Hard">
 			<requirement type="Holding" id="gunHandgunT1Pistol" />
-			<objective type="ZombieKill" value="300" />
-			<reward type="Quest" id="SinQuest_visit_trader3" />
+			<objective type="ZombieKill" value="250" />
+			<reward type="Quest" id="sinstarter_visit_trader3" />
 		</quest>
 
-		<quest id="SinQuest_visit_trader3">
-			<property name="group_name" value="quest_SinQuest" />
+		<quest id="sinstarter_visit_trader3">
+			<property name="group_name" value="quest_sinstarter" />
 			<property name="offer" value="Report your deeds to the trader"/>
-			<property name="name" value="SinQuest Visit Trader 3" />
+			<property name="name" value="SinStarter Visit Trader 3" />
 			<property name="description" value="Return to the Trader to receive your reward." />
 			<property name="icon" value="ui_game_symbol_map_trader" />
 			<property name="category_key" value="quest" />
@@ -88,7 +88,6 @@
 			<reward type="Item" id="bookPistolPeteAPAmmo" count="1" />
 			<reward type="Item" id="bookPistolPeteDamage" count="1" />
 			<reward type="Item" id="modGunReflexSight" count="1" />
-			<reward type="Item" id="modGunDrumMagazineExtender" count="1" />
 			<reward type="Item" id="modGunMagazineExtender" count="1" />
 			<reward type="Item" id="resourceRepairKit" count="5" />
 			<reward type="Item" id="ammo9mmBulletBall" count="500" />

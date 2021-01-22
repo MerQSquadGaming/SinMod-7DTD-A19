@@ -3,11 +3,8 @@ Key,Source,Context,UsedInMainMenu,NoTranslate,english
 StarterBag(Locked),items,item,,,Starter Bag
 StarterBag(Locked)Desc,items,item,,,"HEY!!! It's your starter bag place on ground and hit to open."
 
-StarterBag,items,item,,,Starter Bag
+StarterBag,items,item,,,Starter Bag (Punch Me)
 StarterBagDesc,items,item,,,"HEY!!! It's your starter bag place on ground and hit to open."
 
 challengeSinQuest,items,item,,,The Sin Challenge
 challengeSinQuestDesc,items,item,,,"Starter quest series for survivors."
-
-challenge_SinQuest1,Quest,Challenge Info,,,
-challenge_SinQuest1_offer,Quest,Challenge Info,,,

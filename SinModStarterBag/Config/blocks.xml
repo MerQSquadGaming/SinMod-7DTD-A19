@@ -11,7 +11,7 @@
             <property name="Model" value="#Entities/LootContainers?luggageBigClosedPrefab.prefab"/>
             <property name="Place" value="TowardsPlacer" />
             <drop event="Destroy" count="0" prob="1" />
-            <property name="CanPickup" value="true" />
+            <property name="CanPickup" value="false" />
             <property name="DowngradeBlock" value="StarterBag" />
         </block>
 

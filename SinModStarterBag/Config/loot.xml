@@ -13,12 +13,14 @@
         </lootgroup>
         <lootgroup name="StarterBag" count="all">
             <item group="Clothing"/>
-            <item group="cannedfood" count="10"/>
-            <item group="drinks" count="10"/>
-            <item group="medicine" count="10"/>
+            <item group="foodCanSham" count="10"/>
+            <item group="drinkJarBoiledWater" count="10"/>
+            <item group="medicalFirstAidBandage" count="5"/>
+            <item group="drugPainkillers" count="5"/>
             <item name="gunHandgunT1Pistol" count="1"/>
-            <item name="ammo9mmBulletBall" count="75"/>
+            <item name="ammo9mmBulletBall" count="100"/>
             <item name="meleeToolTorch" count="1"/>
+            <item name="resourceRepairKit" count="1"/>
             <item name="keystoneBlock" count="1"/>
             <item name="challengeSinQuest" count="1"/>
         </lootgroup>
