@@ -13,10 +13,10 @@
         </lootgroup>
         <lootgroup name="StarterBag" count="all">
             <item group="Clothing"/>
-            <item group="foodCanSham" count="10"/>
-            <item group="drinkJarBoiledWater" count="10"/>
-            <item group="medicalFirstAidBandage" count="5"/>
-            <item group="drugPainkillers" count="5"/>
+            <item name="foodCanSham" count="10"/>
+            <item name="drinkJarBoiledWater" count="10"/>
+            <item name="medicalFirstAidBandage" count="5"/>
+            <item name="drugPainkillers" count="5"/>
             <item name="gunHandgunT1Pistol" count="1"/>
             <item name="ammo9mmBulletBall" count="100"/>
             <item name="meleeToolTorch" count="1"/>
