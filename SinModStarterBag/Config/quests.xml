@@ -1,0 +1,106 @@
+<SinModStarterBag>
+  <append xpath="/quests">
+
+  	<quest id="challenge_SinQuest1" group_name_key="quest_SinQuest" name="SinQuest Quest 1/3" subtitle="The Sin Challenge 1" description="Go kill some zombies" icon="ui_game_symbol_archery" 
+		repeatable="false" category_key="challenge" offer="A real hunter knows how to track and kill his prey.  Go show us you have what it takes." difficulty="easy">
+		<requirement type="Holding" id="gunRifleT1HuntingRifle" />
+		<objective type="AnimalKill" value="15"  />
+		<reward type="Quest" id="hunter_visit_trader" />
+	</quest>
+	
+	<quest id="SinQuest_visit_trader1">
+				<property name="group_name" value="quest_hunter" />
+				<property name="offer" value="Report your deeds to the trader"/>
+				<property name="name" value="Hunter Visit Trader" />
+				<property name="description" value="Return to the Trader to receive your next task." />
+				<property name="icon" value="ui_game_symbol_map_trader" />
+				<property name="category_key" value="quest" />
+				<property name="difficulty" value="easy" />
+				<property name="shareable" value="false" />
+				<property name="repeatable" value="false" />
+
+				<objective type="Goto" id="trader" value="5" phase="2" />	
+				<objective type="InteractWithNPC">
+				<property name="phase" value="3" />
+				</objective>
+				<reward type="Exp" value="100"/>
+				<reward type="Exp" value="100"/>
+				<reward type="Item" id="meleeWpnBladeT3MacheteSchematic" value="1" />
+				<reward type="Item" id="meleeWpnBladeT3Machete" value="1" />
+				<reward type="Item" id="ammo762mmBulletBall" value="120" />
+				<reward type="Quest" id="challenge_hunter2" />				
+	</quest>
+	
+	<quest id="challenge_SinQuest2" group_name_key="quest_SinQuest" name="SinQuest Quest 2/3" subtitle="The Sin Challenge 2" description="Go kill some zombies" icon="ui_game_symbol_archery" 
+		repeatable="false" category_key="challenge" offer="You did good rookie, now do it again.  " difficulty="Medium">
+		<requirement type="Holding" id="gunRifleT1HuntingRifle" />
+		<objective type="AnimalKill" value="20"  />
+		<reward type="Quest" id="hunter_visit_trader2" />
+	</quest>
+	
+	<quest id="SinQuest_visit_trader2">
+				<property name="group_name" value="quest_hunter" />
+				<property name="offer" value="Report your deeds to the trader"/>
+				<property name="name" value="Hunter Visit Trader 2" />
+				<property name="description" value="Return to the Trader to receive your next task." />
+				<property name="icon" value="ui_game_symbol_map_trader" />
+				<property name="category_key" value="quest" />
+				<property name="difficulty" value="Medium" />
+				<property name="shareable" value="false" />
+				<property name="repeatable" value="false" />
+
+				<objective type="Goto" id="trader" value="5" phase="2" />	
+				<objective type="InteractWithNPC">
+				<property name="phase" value="3" />
+				</objective>
+				<reward type="Exp" value="200" phase="1" />
+				<reward type="Item" id="gunBowT3CompoundBowSchematic" value="1" />
+				<reward type="Item" id="gunBowT3CompoundBow" value="1" />
+				<reward type="Item" id="ammoArrowSteelAP" value="100" />
+				<reward type="Quest" id="challenge_hunter3" />
+	</quest>
+	
+	<quest id="challenge_SinQuest3" group_name_key="quest_SinQuest" name="SinQuest Quest 3/3" subtitle="The Sin Challenge 3" description="Go kill some zombies" icon="ui_game_symbol_archery" 
+		repeatable="false" category_key="challenge" offer="So you got some talent.  Lets see if you can manage to accomplish this task.  " difficulty="Hard">
+		<requirement type="Holding" id="gunBowT3CompoundBow" />
+		<objective type="AnimalKill" value="30"  />
+		<reward type="Quest" id="hunter_visit_trader3" />
+	</quest>
+	
+	<quest id="SinQuest_visit_trader3">
+				<property name="group_name" value="quest_hunter" />
+				<property name="offer" value="Report your deeds to the trader"/>
+				<property name="name" value="Hunter Visit Trader 3" />
+				<property name="description" value="Return to the Trader to receive your reward." />
+				<property name="icon" value="ui_game_symbol_map_trader" />
+				<property name="category_key" value="quest" />
+				<property name="difficulty" value="Hard" />
+				<property name="shareable" value="false" />
+				<property name="repeatable" value="false" />
+
+				<objective type="Goto" id="trader" value="5" phase="2" />	
+				<objective type="InteractWithNPC">
+				<property name="phase" value="3" />
+				</objective>
+				<reward type="Exp" value="300"/>
+				<reward type="Item" id="gunHandgunT1PistolSchematic" count="1" />
+				<reward type="Item" id="gunHandgunT1Pistol" count="1" />
+				<reward type="Item" id="ammo9mmBulletBall" count="50" />
+				<reward type="Item" id="bookNightStalkerBlades" count="1" />
+				<reward type="Item" id="bookNightStalkerArchery" count="1" />
+				<reward type="Item" id="bookNightStalkerTwilightThief" count="1" />
+				<reward type="Item" id="bookWasteTreasuresCloth" count="1" />
+				<reward type="Item" id="bookHuntingJournalBears" count="1" />
+				<reward type="Item" id="bookHuntingJournalWolves" count="1" />
+				<reward type="Item" id="bookHuntingJournalCoyotes" count="1" />
+				<reward type="Item" id="bookHuntingJournalMountainLions" count="1" />
+				<reward type="Item" id="bookHuntingJournalDeer" count="1" />
+				<reward type="Item" id="bookHuntingJournalVultures" count="1" />
+				<reward type="Item" id="bookRangersForestGuide" count="1" />
+				<reward type="Item" id="perkHunter" count="1" />
+				<reward type="Item" id="perkWILDHunter" count="1" />
+				<reward type="Item" id="perkWildcard1" count="1" />
+	</quest>
+	
+  </append>
+</SinModStarterBag>

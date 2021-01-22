@@ -1,0 +1,4 @@
+Key,Source,Context,UsedInMainMenu,NoTranslate,english
+StarterBag,items,item,,,Go Bag (Prepper Bag)
+StarterBagDesc,items,item,,,"HEY!!! It's your starter bag place on ground and hit to open."
+
