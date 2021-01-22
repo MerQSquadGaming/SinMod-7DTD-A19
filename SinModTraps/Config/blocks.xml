@@ -29,34 +29,6 @@
 			<property name="Group" value="Tools/Traps" />
 			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 		</block>
-
-		<block name="trapSteelFireSpike">
-			<property name="Damage" value="100"/>
-			<property name="Damage_received" value="100"/>
-			<property name="MaxDamage" value="2000" />
-			<property name="Class" value="TrunkTip" />
-			<property name="DescriptionKey" value="trapSteelFireSpikeDesc"/>
-			<property name="Damage" value="7" />
-			<property name="Damage_received" value="40" />
-			<property name="Material" value="Msteel" />
-			<property name="MaxDamage" value="10000" />
-			<property name="Shape" value="New" />
-			<property name="Model" value="cone1m" />
-			<property name="Texture" value="355" />
-			<!--property name="DontDamageOnTouch" value="true" /-->
-			<property name="BuffsWhenWalkedOn" value="buffBurningMolotov"/>
-			<property class="RepairItems">
-				<property name="ammoGasCan" value="100" />
-			</property>
-			<property name="CustomUpgradeSound" value="Crafting/place_block_metal" />
-			<property name="DowngradeBlock" value="steelLogSpike6" />
-			<drop event="Destroy" count="0" />
-			<drop event="Fall" name="scrapMetalPile" count="1" prob=".75" stick_chance="1" />
-			<property name="EconomicValue" value="160" />
-			<property name="Group" value="Tools/Traps" />
-			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
-		</block>
-
 	</append>
 
 </SinModTraps>

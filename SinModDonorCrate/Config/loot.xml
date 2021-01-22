@@ -23,7 +23,7 @@
             <item name="ammoShotgunSlug" count="100"/>
             <item name="ammoShotgunBreachingSlug" count="100"/>
         </lootgroup>
-        <lootgroup name="DonorSchematic" count="2">
+        <lootgroup name="DonorSchematic" count="5">
             <item name="modGunBarrelExtenderSchematic"/>
             <item name="modGunMuzzleBrakeSchematic"/>
             <item name="modGunSoundSuppressorSilencerSchematic"/>
