@@ -3,12 +3,13 @@
         <block name="steelBarsCentered">
             <property name="CustomIcon" value="ironBarsCentered"/>
             <property name="CustomIconTint" value="545358"/>
+            <property name="TintColor" value="545358"/>
             <property name="DisplayType" value="blockHardened"/>
-            <property name="Material" value="Mmetal_Xhard"/>
+            <property name="Material" value="Mmetal_xhard"/>
             <property name="Shape" value="New"/>
             <property name="LightOpacity" value="0"/>
             <property name="Model" value="iron_bars_centered"/>
-            <property name="Texture" value="446"/>
+            <property name="Texture" value="443"/>
             <property name="UseGlobalUV" value="Local"/>
             <property name="ImposterExcludeAndStop" value="true"/>
             <property name="Place" value="TowardsPlacer"/>
@@ -32,6 +33,7 @@
             <property name="Extends" value="steelBarsCentered"/>
             <property name="CustomIcon" value="ironBarsCentered"/>
             <property name="CustomIconTint" value="545358"/>
+            <property name="TintColor" value="545358"/>
             <property name="Model" value="iron_bars"/>
             <property name="Place" value="TowardsPlacerInverted"/>
             <property name="SortOrder2" value="0060"/>

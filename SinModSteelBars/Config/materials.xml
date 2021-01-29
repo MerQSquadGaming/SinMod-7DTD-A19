@@ -1,6 +1,6 @@
 <SinModSteelBars>
     <append xpath="/materials">
-        <material id="Mmetal_Xhard">
+        <material id="Mmetal_xhard">
             <property name="damage_category" value="metal"/>
             <property name="surface_category" value="metal"/>
             <property name="forge_category" value="iron"/>
