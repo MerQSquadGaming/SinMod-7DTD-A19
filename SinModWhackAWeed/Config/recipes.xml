@@ -1,0 +1,9 @@
+<SinModWhackAWeed>
+    <append xpath="/recipes">
+        <recipe name="meleeToolWhackAWeed" count="1"  craft_time="10">
+            <ingredient name="resourceScrapIron" count="25"/>
+            <ingredient name="resourceMetalPipe" count="1"/>
+            <ingredient name="resourceLeather" count="2"/>
+        </recipe>
+    </append>
+</SinModWhackAWeed>

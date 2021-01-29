@@ -1,0 +1,3 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+meleeToolWhackAWeed,items,Melee,,,Whack A Weed,,,,,
+meleeToolWhackAWeedDesc,items,Melee,,,Great for chopping grass not good for much else.,,,,,
