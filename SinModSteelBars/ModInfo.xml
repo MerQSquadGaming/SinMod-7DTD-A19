@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+    <ModInfo>
+        <Name value="SinModSteelBars" />
+        <Description value="Adds steel bars to craft and can upgrade iron bars." />
+        <Author value="SinisterMind81" />
+        <Version value="A19_v1.0" />
+    </ModInfo>
+</xml>

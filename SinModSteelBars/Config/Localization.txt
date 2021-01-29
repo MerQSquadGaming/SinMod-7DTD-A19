@@ -1,0 +1,7 @@
+Key,UsedInMainMenu,Source,Context,Changes,English,French,German,Klingon,Spanish,Polish
+
+steelBarsCentered,blocks,Block,,,Steel Bars Centered,,,,,
+steelBarsCenteredDesc,blocks,Block,,,You can see and shoot through steel bars and they offer better protection.,,,,,
+
+steelBars,blocks,Block,,,Steel Bars,,,,,
+steelBarsDesc,blocks,Block,,,You can see and shoot through steel bars and they offer better protection.,,,,,
