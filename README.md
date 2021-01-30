@@ -1,28 +1,55 @@
 <center><a href=""><img src="https://i.imgur.com/dhz5fKu.png" title="MerQ Squad" alt="SinMod"></a>
-<h1>SinMod a 7 Day to Die server mod</h1></center>
+<h1>SinMod A19 v3.3</h1></center>
 
 
 <h2> Install SinMod </h2>
-1. Download SinMod from <a href="https://drive.google.com/file/d/1DbUHaMJXwK0zPmzx_0Kw49zEMa8Pzp_e/view?usp=sharing">Here</a> Our Google Drive.<br>
+1. Download SinMod from <a href="https://drive.google.com/file/d/1DbUHaMJXwK0zPmzx_0Kw49zEMa8Pzp_e/view?usp=sharing">Here</a> our Google Drive or from our github.<br>
 2. Go to your Steam application and right click on 7 Days to Die.<br>
-3. Select <Properties> and choose the <Local Files> tab.<br>
-4. Select <Browse Local Files>, this should open a seperate window where your game in installed.<br>
-5. Open the SinMod-master.zip file and drag and drop the <Mods> folder directly in here.<br>
-
+3. Select 'Properties' and choose the 'Local Files' tab.<br>
+4. Select 'Browse Local Files', this should open a seperate window where your game in installed.<br>
+5. Open the SinMod-master.zip file and drag and drop the the modlets into the 'Mods' folder.<br>
+6. If you do not have a 'Mods' folder, you will need to create one.<br>
+<br>
 <h2> Contents</h2>
 
-* Backpack now contains 60 slots.
-* Vehicles not hold more survivors (2-minibike, 2-gyrocopter, 4-jeep, 2-motocycle).
-* Special Admin Blocks for building in game events and lobbies (can only be broke with Dev: Digger)
-* Added the ability to dismantle all bullets and craft Incendiary rounds for most ammo types.
-* Autominer takes gas to mine resources for you while you exploring.
-* Automatically respawns boulders and cars in game after a certain amount of time.
-* Able to craft a working Jail door.
-* Special crate for donor to how you survive.
-* Custom Flag land claim blocks (Custom Flags can be added for a small donation).
-* Now you can craft pallets and shelves that can actually store items.
-* Now there are 3 slot in the forge to assist in smelting.
-* Craft level 6 tools and weapons.
-* Stacks have increased so you can hold more.
-* Custom Horn sounds for vehicles.
-* Working kitchen sinks and stoves can give you drinking water or dirty water. 
+•	SinMod60BPM - (v 1.1) - Increases player inventory to 60 slots and unlock with packmule perk like the original.<br>
+•	SinModAddedSeatVehicles - (v2.1) - Increases how many players can ride in/on your vehicle with you. Bicycle is only one person, MiniBike allows 2, Motorcycle allows 2, Gyrocopter allows 2, and the 4x4Truck allows 6.<br>
+•	SinModAdmin - (v2.2) - Custom blocks for server hosted locations and events (like lobby or horde arena), indestructible blocks can only be broke with Admin Super Digger.<br>
+•	SinModAmmo - (v2.6.) - Incendiary rounds (INC) for 9mm, 7.62mm, .44 Mag., also allows crafting of bulk INC rounds and allows you to dismantle all ammo into base components.<br>
+•	SinModAutominer - (v1.1) - Autominer is unlocked through finding all “Art of Mining” books. Once all have been read you will be able to craft this autominer (expensive) which will mine and collect resources every 2 hours, this machine runs off of gas and will need to be filled each time.<br>
+•	SinModBoulderRespawner - (v2.1) -  Once a boulder or resources block is broke,a small stone (that cannot be picked up)is placed on ground,  a new block will return after a set amount of time. This is great for highly populated servers or servers with small maps and a good amount of players.<br>
+•	SinModCarRespawner - (v2.1.) - Once a car is completely stripped, an invisible block will be placed and after a set amount of time a random car will respawn. This is great for highly populated servers or servers with small maps and a good amount of players.<br>
+•	SinModCraftJail - (v1.0) - Want to add a dungeon or jail at your base but cant craft a jail door? Look no further that’s exactly what this mod allows. Craft Jail door that can be locked, opened and passcoded.<br>
+•	SinModDonorCrate - (v2.2) - Show some love to the player who show you some love, custom supply crate to say thank you to your donors. <br>
+•	SinModFlags - (v1.3) - Custom flags added to game, with new models and animation. These flags can be used as landclaim blocks and crafted.<br>
+•	SinModForgeSlotx3 - (v1.0) - Adds back the 3rd slot to forges so you can smelt more items at a time.<br>
+•	SinModLvl6 - (v1.0) - Once Perk/Skill has been mastered, you will be able to craft lvl 6 Tools/Weapons/Armor/Turrets.<br>
+•	SinModMenu - (v2.1) - A fun little mod that add a touch of SinMod to your loading Menu Screen.<br>
+•	SinModStackIncrease - (v2.2) - Increase stack sizes on items and blocks. Ammo stacks to 5k, Gas 20k, resources 10k, Medical/Drugs/drinks/food to 500, and Casino Coins to 30K. All blocks stack to 30K and dyes to 100.<br>
+•	SinModStarterBag - (v3.3) - Since you have awakened the world has gone to shit. Lucky for you, you saw this coming and stashed a few items to help you out. Start the game with clothes, food/drink, pistol, ammo, torch and a few other items. Place your suitcase on ground and break it open and get your supplies.<br>
+•	SinModStorageDecor - (v2.2) - Blocks that normally cannot be crafted can now be used as storage boxes. Blocks such as wood piles, cardboard boxes, bags, pallets, barrels, medicine/food/ammo/gun/book piles, clothing shelves and weapon racks, misc boxes. These items can be found in the Wood Furniture block, and the Metal Furniture block. All storage items can be locked and passcoded and act as a storage crate.<br>
+•	SinModTraps - (v1.3) - Added a fire trap that can be learned in the advanced engineering perk. Craft the empty fire trap, fill it with gas and watch your enemies burn. Once gas has deplete just refill and repeat.<br>
+•	SinModVehicleHorns - (v1.3) - Changed the sound of all vehicle horns.<br>
+•	SinModWorkingKitchen - (v1.3) - Unlocked through the Master Chef skill level 3, allows you to craft stoves that work as campfires, and sinks that can be used a storage and can give you clean drinking water or murky water. Place empty jar in hand left click for drinking water or right click for murky water. To craft sink you must craft a sink filter and then use filter to craft sink.<br>
+<br>
+<h2>Newly Added</h2>
+•	SinModWhackAWeed - (v1.1) - Easy to craft grass cutter, allows you to clear grass from ground and not deplete your stamina.<br>
+•	SinModSteelBars - (v1.0) - Upgrade iron bars to steel bars using Forged Steel, or make steel bars straight from the forge with a crucible.<br>
+•	SinModPOILoot - (v1.0) – Cardboard box top piles and double stacked boxes are now lootable in all prefabs. Time to see whats in the garages!<br>
+<br>
+<h2>Change Log</h2>
+•	Fixed working sink icon for filter.<br>
+•	Fixed the fire trap so when you fill with gas you don’t get exp.<br>
+•	Fixed the autominer so when you fill with gas you don’t get exp.<br>
+•	Added more loot containers to the storagedecor and made it so all containers can be locked and passcoded.<br>
+•	Changed the starter quest so that the first quest you can use and tier 1 weapon, second quest tier2 and third tier 3.<br>
+•	Changed the starter quest rewards to offer skill points and casino coins as well as a MerQ Satchel. <br>
+•	Changed the loot found in the donor crate to be a bit better.<br>
+•	Changed the INC ammo to use different icon<br>
+•	Added new weed eater mod<br>
+•	Added steel bars<br>
+•	Added new lootable containers to POI’s<br>
+<br>
+<h2>Known Issues</h2>
+•	When placing more than one flag can no longer press (E) to pick up.<br>
+•	Menu always shows same image.<br>
