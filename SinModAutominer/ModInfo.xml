@@ -2,8 +2,8 @@
 <xml>
 	<ModInfo>
 		<Name value="SinModAutominer" />
-		<Description value="Ultimate tools for use in end game." />
+		<Description value="Automining machine that uses diesel fuel in exchange for resources, can be startered every 3 hours." />
 		<Author value="Sinistermind81" />
-		<Version value="1.1.0" />
+		<Version value="2.2" />
 	</ModInfo>
 </xml>

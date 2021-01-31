@@ -2,6 +2,7 @@
     <append xpath="/blocks">
         <block name="autoMinerOff">
             <property name="Material" value="Mmetal"/>
+            <property name="RepairExpMultiplier" value="-.3"/>
             <property name="Shape" value="Ext3dModel"/>
             <property name="Texture" value="293"/>
             <property name="Mesh" value="models"/>
@@ -11,14 +12,14 @@
             <property name="ImposterExchange" value="imposterBlock" param1="2"/>
             <property name="CustomIcon" value="controlPanelBase04"/>
             <property class="RepairItems">
-                <property name="resourceForgedIron" value="100"/>
+                <property name="resourceForgedSteel" value="100"/>
                 <property name="resourceElectricParts" value="20"/>
                 <property name="resourceMechanicalParts" value="20"/>
             </property>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="autoMinerOn"/>
-                <property name="Item" value="ammoGasCan"/>
-                <property name="ItemCount" value="5000"/>
+                <property name="Item" value="ammoDieselCan"/>
+                <property name="ItemCount" value="10"/>
                 <property name="UpgradeHitCount" value="1"/>
             </property>
             <drop event="Harvest" name="terrStone" count="0" tool_category="Disassemble"/>
@@ -26,6 +27,7 @@
             <drop event="Fall" name="scrapMetalPile" count="1" prob="0.75" stick_chance="1"/>
             <property name="DescriptionKey" value="autoMinerOffDesc"/>
             <property name="DisplayInfo" value="Description"/>
+            <property name="UnlockedBy" value="perkArtOfMiningComplete"/>
         </block>
         <block name="autoMinerOn">
             <property name="Material" value="Mmetal"/>
@@ -45,7 +47,7 @@
             <property name="Class" value="PlantGrowing"/>
             <property name="PlantGrowing.FertileLevel" value="0"/>
             <property name="PlantGrowing.Next" value="autoMinerOff"/>
-            <property name="PlantGrowing.GrowthRate" value="120"/>
+            <property name="PlantGrowing.GrowthRate" value="180"/><!--how fast it completes-->
             <property name="PlantGrowing.IsRandom" value="false"/>
             <property name="PlantGrowing.LightLevelStay" value="0"/>
             <property name="PlantGrowing.GrowOnTop" value="autoMinerCompartment"/>
