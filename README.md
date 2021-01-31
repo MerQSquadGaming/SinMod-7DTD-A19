@@ -16,7 +16,7 @@
 •	SinModAddedSeatVehicles - (v2.1) - Increases how many players can ride in/on your vehicle with you. Bicycle is only one person, MiniBike allows 2, Motorcycle allows 2, Gyrocopter allows 2, and the 4x4Truck allows 6.<br>
 •	SinModAdmin - (v2.2) - Custom blocks for server hosted locations and events (like lobby or horde arena), indestructible blocks can only be broke with Admin Super Digger.<br>
 •	SinModAmmo - (v2.6.) - Incendiary rounds (INC) for 9mm, 7.62mm, .44 Mag., also allows crafting of bulk INC rounds and allows you to dismantle all ammo into base components.<br>
-•	SinModAutominer - (v1.1) - Autominer is unlocked through finding all “Art of Mining” books. Once all have been read you will be able to craft this autominer (expensive) which will mine and collect resources every 2 hours, this machine runs off of gas and will need to be filled each time.<br>
+•	SinModAutominer - (v2.2) - Autominer is unlocked through finding all “Art of Mining” books. Once you have read all the books you will be able to craft the autominer, however you will need to have level 4 Grease Monkey to unlock diesel fuel recipe which will need to turn on autominer and collect resources every 3 hours, it will need to be filled each time.<br>
 •	SinModBoulderRespawner - (v2.1) -  Once a boulder or resources block is broke,a small stone (that cannot be picked up)is placed on ground,  a new block will return after a set amount of time. This is great for highly populated servers or servers with small maps and a good amount of players.<br>
 •	SinModCarRespawner - (v2.1.) - Once a car is completely stripped, an invisible block will be placed and after a set amount of time a random car will respawn. This is great for highly populated servers or servers with small maps and a good amount of players.<br>
 •	SinModCraftJail - (v1.0) - Want to add a dungeon or jail at your base but cant craft a jail door? Look no further that’s exactly what this mod allows. Craft Jail door that can be locked, opened and passcoded.<br>
@@ -38,6 +38,9 @@
 •	SinModPOILoot - (v1.0) – Cardboard box top piles and double stacked boxes are now lootable in all prefabs. Time to see whats in the garages!<br>
 <br>
 <h2>Change Log</h2>
+•   Fixed autominer EXP exploit.<br>
+•   Added Diesel Fuel Can which is unlocked through level 4 Grease Monkey perk. Used to fuel autominer.<br>
+•   Changed autominer run time to 3 hour realtime.<br>
 •	Fixed working sink icon for filter.<br>
 •	Fixed the fire trap so when you fill with gas you don’t get exp.<br>
 •	Fixed the autominer so when you fill with gas you don’t get exp.<br>
