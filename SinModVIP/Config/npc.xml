@@ -1,0 +1,24 @@
+<SinModVIP>
+    <append xpath="/npc">
+        <npc_info 
+        id="tradersin" 
+        name="Trader Sin" 
+        name_key="npc_traderSin" 
+        faction="trader" 
+        portrait="npc_sin" 
+        greeting_type="nearby" 
+        stance="Dislike" voice_set="trader" 
+        trader_id="9" dialog_id="trader" />
+    </append>
+
+    <append xpath="/npc/factions">
+        <faction name="merqsquad">
+            <relationship name="trader" value="neutral"/>
+            <relationship name="bandits" value="hate"/>
+            <relationship name="whiteriver" value="dislike"/>
+            <relationship name="duke" value="neutral"/>
+            <relationship name="animals" value="neutral"/>
+            <relationship name="undead" value="hate"/>
+        </faction>
+    </append>
+</SinModVIP>

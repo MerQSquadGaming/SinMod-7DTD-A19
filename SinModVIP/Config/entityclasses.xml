@@ -1,0 +1,9 @@
+<SinModVIP>
+    <append xpath="/entity_classes">
+        <entity_class name="npcTraderSin" extends="npcTraderTemplate">
+            <property name="Tags" value="entity,npc,human,trader"/>
+            <property name="Mesh" value="#Entities/Traders?JoelRagdoll.prefab"/>
+            <property name="NPCID" value="tradersin"/>
+        </entity_class>
+    </append>
+</SinModVIP>

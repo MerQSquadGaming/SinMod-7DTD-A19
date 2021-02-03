@@ -1,0 +1,4 @@
+Key,UsedInMainMenu,Source,Context,Changes,English
+dialog_trader_response_shop,Quest,Dialogs,,,What the fuck you got?,,
+trader_sin,POI,POI,,x,Trader Sin,,
+npcTraderSin,entityclasses,Entity,,,Trader Sin,,

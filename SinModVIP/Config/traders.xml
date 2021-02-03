@@ -1,0 +1,116 @@
+<SinModVIP>
+    <append xpath="/traders/trader_item_groups">
+        <trader_item_group name="traderDecor" count="25">
+            <item name="decoBasketBallHoop" count="1,2"/>
+            <item name="decoBenchPress" count="1,2"/>
+            <item name="decoCarMotorFlat" count="1,2"/>
+            <item name="decoCarTireStack" count="1,2"/>
+            <item name="decoCarTirePile" count="1,2"/>
+            <item name="decoClassicDogHouse" count="1,2"/>
+            <item name="decoClawFootBathTub" count="1,2"/>
+            <item name="decoComputerMonitorKeyboardMousePC" count="1,2"/>
+            <item name="decoCowSkull" count="1,2"/>
+            <item name="decoHandTruck" count="1,2"/>
+            <item name="decoHoistChain" count="1,2"/>
+            <item name="decoHoistHook" count="1,2"/>
+            <item name="decoHoistMagnet" count="1,2"/>
+            <item name="decoHoistSpreader" count="1,2"/>
+            <item name="decoHoistTopMount" count="1,2"/>
+            <item name="decoLargePetCage" count="1,2"/>
+            <item name="decoMetalSlide" count="1,2"/>
+            <item name="decoPoolTable" count="1,2"/>
+            <item name="decoPicnicTable" count="1,2"/>
+            <item name="decoReptileTerrarium" count="1,2"/>
+            <item name="decoStationaryBike" count="1,2"/>
+            <item name="decoSwingSet" count="1,2"/>
+            <item name="decoTableRound" count="1,2"/>
+            <item name="decoTreadmill" count="1,2"/>
+            <item name="decoWeightBar" count="1,2"/>
+            <item name="decoWildWestWagon" count="1,2"/>
+            <item name="decoWildWestWagonWheelBack" count="1,2"/>
+            <item name="decoWildWestWagonWheelFront" count="1,2"/>
+        </trader_item_group>
+
+        <trader_item_group name="traderCNT" count="25">
+            <item name="cntCharcoalGrillClosed" count="1,2"/>
+            <item name="cntBookShelfSingleTopFull01" count="1,2"/>
+            <item name="cntBookShelfSingleBottomFull01" count="1,2"/>
+            <item name="cntBookShelfSingleTopFull02" count="1,2"/>
+            <item name="cntBookShelfSingleBottomFull02" count="1,2"/>
+            <item name="cntClothesShelfStackShirts01" count="1,2"/>
+            <item name="cntClothesShelfStackShirts02" count="1,2"/>
+            <item name="cntClothesShelfStackJeans01" count="1,2"/>
+            <item name="cntClothesShelfStackJeans02" count="1,2"/>
+            <item name="cntCoffeeMaker" count="1,2"/>
+            <item name="cntCoffeeMakerCommercial" count="1,2"/>
+            <item name="cntDisplayCaseAmmoLeftBroken" count="1,2"/>
+            <item name="cntDisplayCaseAmmoMiddleBroken01" count="1,2"/>
+            <item name="cntDisplayCaseAmmoMiddleBroken02" count="1,2"/>
+            <item name="cntDisplayCaseAmmoRightBroken" count="1,2"/>
+            <item name="cntSodaFountain" count="1,2"/>
+            <item name="cntGasGrillClosed" count="1,2"/>
+            <item name="cntJanitorCartFull" count="1,2"/>
+            <item name="cntGasPump" count="1,2"/>
+            <item name="cntIceMachine" count="1,2"/>
+            <item name="cntGunRackLargeGuns01" count="1,2"/>
+            <item name="cntGunRackLargeGuns02" count="1,2"/>
+            <item name="cntGunRackSmallArmor" count="1,2"/>
+            <item name="cntGunRackSmallMagazines" count="1,2"/>
+            <item name="cntHardenedChestSecure" count="1,2"/>
+        </trader_item_group>
+    </append>
+
+    <append xpath="/traders">
+        <trader_info id="9" full_reset="true" min_inventory="50" max_inventory="100" min_items_swapped="20" max_items_swapped="20" reset_interval="1" open_time="4:05" close_time="21:50">
+            <trader_items count="all">
+                <item group="traderDecor" count="15,30"/>
+                <item group="traderCNT" count="15,30"/>
+                <item group="traderAlways"/>
+                <item group="traderGeneral" count="8,12"/>
+                <item group="generalResources" count="9,14"/>
+                <item group="constructionSupplies" count="2,8"/>
+                <item group="decorativeBlocks" count="2,7"/>
+                <item group="modMeleeT1"/>
+                <item name="autoTurret" count="1,2" prob="0.5"/>
+                <item name="shotgunTurret" count="1,2" prob="0.7"/>
+                <item name="drinkJarGrandpasForgettingElixir" count="1"/>
+                <item group="vehiclePartsT0" count="1,2"/>
+                <item group="vehiclePartsMixed" count="1,2"/>
+                <item group="stashOnlyItemsLow" count="1,2"/>
+                <item name="drinkJarGrandpasForgettingElixir" count="1"/>
+                <item name="drinkJarGrandpasForgettingElixir" count="1"/>
+                <item group="traderElectrical" count="3,5"/>
+                <item name="cntVendingMachine" count="2"/>
+                <item group="weaponsGunParts" count="1,2"/>
+                <item group="weaponsMeleeMixed" count="2,3"/>
+                <item group="weaponsGunsMixed" count="2,3"/>
+                <item group="weaponsGunsT2" count="1"/>
+                <item group="weaponsGunsT3" count="2,3"/>
+                <item group="weaponsGunsT3QL5" count="2,3"/>
+                <item group="groupArmorHeavyMixed" count="1,2"/>
+                <item group="groupArmorHeavyT2" count="2,3"/>
+                <item group="groupArmorLightMixed" count="1,2"/>
+                <item group="groupArmorLightT2" count="2,3"/>
+                <item name="armorMiningHelmet" quality="3,5" mods="modArmorHelmetLight" mod_chance="1"/>
+                <item group="vehiclePartsMixed" count="2,3"/>
+                <item name="apparelNightvisionGoggles" count="1"/>
+                <item name="solarbank" count="1"/>
+                <item name="solarCell" count="1,3" quality="3,6"/>
+                <item group="stashOnlyItemsHigh" count="3,4"/>
+                <item name="drinkJarGrandpasForgettingElixir" count="1"/>
+                <item group="tools" count="1,2"/>
+                <item group="rareTools" count="3,4"/>
+                <item group="ammo" count="5,8"/>
+                <item group="ammoSupplies" count="1"/>
+                <item group="commonBooks" count="4,5"/>
+                <item group="rareBooks" count="2,3"/>
+                <item group="perkBooks" count="2,3"/>
+                <item group="modAllT1SecretStash" count="1,4"/>
+                <item group="modAllT2SecretStash" count="1,4"/>
+                <item group="modAllT3SecretStash" count="1,4"/>
+                <item group="modAllT4SecretStash" count="1,4"/>
+                <item group="modAllT5SecretStash" count="1,4"/>
+            </trader_items>
+        </trader_info>
+    </append>
+</SinModVIP>
