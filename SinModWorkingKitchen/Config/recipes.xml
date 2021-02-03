@@ -34,7 +34,7 @@
 			<ingredient name="resourceMetalPipe" count="5" />
 		</recipe>
 		<recipe name="resourceSinkFilter" count="1" craft_area="workbench" tags="learnable">
-			<ingredient name="resourceAirFilter" count="3" />
+			<ingredient name="resourceCloth" count="5" />
 			<ingredient name="resourceCoal" count="15" />
 			<ingredient name="resourceGlue" count="5" />
 			<ingredient name="resourceScrapPolymers" count="25" />
