@@ -30,7 +30,7 @@
 •	SinModStorageDecor - (v2.2) - Blocks that normally cannot be crafted can now be used as storage boxes. Blocks such as wood piles, cardboard boxes, bags, pallets, barrels, medicine/food/ammo/gun/book piles, clothing shelves and weapon racks, misc boxes. These items can be found in the Wood Furniture block, and the Metal Furniture block. All storage items can be locked and passcoded and act as a storage crate.<br>
 •	SinModTraps - (v1.3) - Added a fire trap that can be learned in the advanced engineering perk. Craft the empty fire trap, fill it with gas and watch your enemies burn. Once gas has deplete just refill and repeat.<br>
 •	SinModVehicleHorns - (v1.3) - Changed the sound of all vehicle horns.<br>
-•	SinModWorkingKitchen - (v1.3) - Unlocked through the Master Chef skill level 3, allows you to craft stoves that work as campfires, and sinks that can be used a storage and can give you clean drinking water or murky water. Place empty jar in hand left click for drinking water or right click for murky water. To craft sink you must craft a sink filter and then use filter to craft sink.<br>
+•	SinModWorkingKitchen - (v2.4) - Unlocked through the Master Chef skill level 3, allows you to craft stoves that work as campfires, and sinks that can be used a storage and can give you clean drinking water or murky water. Place empty jar in hand left click for drinking water or right click for murky water. To craft sink you must craft a sink filter and then use filter to craft sink.<br>
 <br>
 <h2>Newly Added</h2>
 •	SinModWhackAWeed - (v1.1) - Easy to craft grass cutter, allows you to clear grass from ground and not deplete your stamina.<br>
@@ -38,6 +38,11 @@
 •	SinModPOILoot - (v1.0) – Cardboard box top piles and double stacked boxes are now lootable in all prefabs. Time to see whats in the garages!<br>
 <br>
 <h2>Change Log</h2>
+•   Changed sinks to use cloth instead of air filter, as air filter was removed by TFP.<br>
+•   Fixed fire trap EXP exploit.<br>
+•   Added Kerosene recipe and fire trap recipe to level 4 Advanced Engineering Skill reward.<br>
+•   Changed fire trap block to steel block icon with fire symbol.<br>
+•   Added descriptions to blocks for fire trap showing active or needs fuel.<br>
 •   Fixed autominer EXP exploit.<br>
 •   Added Diesel Fuel Can which is unlocked through level 4 Grease Monkey perk. Used to fuel autominer.<br>
 •   Changed autominer run time to 3 hour realtime.<br>
