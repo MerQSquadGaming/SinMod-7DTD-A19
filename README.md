@@ -38,6 +38,7 @@
 •	SinModPOILoot - (v1.0) – Cardboard box top piles and double stacked boxes are now lootable in all prefabs. Time to see whats in the garages!<br>
 <br>
 <h2>Change Log</h2>
+•   Changed loot quanity and groups for Donor Crate.<br>
 •   Changed sinks to use cloth instead of air filter, as air filter was removed by TFP.<br>
 •   Fixed fire trap EXP exploit.<br>
 •   Added Kerosene recipe and fire trap recipe to level 4 Advanced Engineering Skill reward.<br>
