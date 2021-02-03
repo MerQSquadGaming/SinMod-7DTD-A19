@@ -3,8 +3,13 @@
         <recipe name="trapFireEmpty" count="1" craft_area="workbench" scrapable="False" tags="learnable">
             <ingredient name="resourceForgedSteel" count="10" />
             <ingredient name="toolCookingGrill" count="1" />
-            <ingredient name="ammoGasCan" count="100" />
-            <ingredient name="resourceGunPowder" count="4"/>
+            <ingredient name="resourceElectricParts" count="1" />
+            <ingredient name="resourceGunPowder" count="10"/>
+        </recipe>
+
+        <recipe name="ammoKeroseneCan" count="10" craft_area="chemistryStation" tags="learnable">
+            <ingredient name="resourceOilShale" count="1"/>
+            <ingredient name="resourceCoal" count="1"/>
         </recipe>
     </append>
 </SinModTraps>
