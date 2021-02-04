@@ -1,6 +1,6 @@
 <SinModVIP>
     <append xpath="/traders/trader_item_groups">
-        <trader_item_group name="traderDecor" count="25">
+        <trader_item_group name="traderDecor" count="all">
             <item name="decoBasketBallHoop" count="1,2"/>
             <item name="decoBenchPress" count="1,2"/>
             <item name="decoCarMotorFlat" count="1,2"/>
@@ -31,7 +31,7 @@
             <item name="decoWildWestWagonWheelFront" count="1,2"/>
         </trader_item_group>
 
-        <trader_item_group name="traderCNT" count="25">
+        <trader_item_group name="traderCNT" count="all">
             <item name="cntCharcoalGrillClosed" count="1,2"/>
             <item name="cntBookShelfSingleTopFull01" count="1,2"/>
             <item name="cntBookShelfSingleBottomFull01" count="1,2"/>
@@ -63,8 +63,8 @@
     <append xpath="/traders">
         <trader_info id="9" full_reset="true" min_inventory="50" max_inventory="100" min_items_swapped="20" max_items_swapped="20" reset_interval="1" open_time="4:05" close_time="21:50">
             <trader_items count="all">
-                <item group="traderDecor" count="15,30"/>
-                <item group="traderCNT" count="15,30"/>
+                <item group="traderDecor" count="10,30"/>
+                <item group="traderCNT" count="10,30"/>
                 <item group="traderAlways"/>
                 <item group="traderGeneral" count="8,12"/>
                 <item group="generalResources" count="9,14"/>
@@ -73,38 +73,35 @@
                 <item group="modMeleeT1"/>
                 <item name="autoTurret" count="1,2" prob="0.5"/>
                 <item name="shotgunTurret" count="1,2" prob="0.7"/>
-                <item name="drinkJarGrandpasForgettingElixir" count="1"/>
-                <item group="vehiclePartsT0" count="1,2"/>
-                <item group="vehiclePartsMixed" count="1,2"/>
-                <item group="stashOnlyItemsLow" count="1,2"/>
-                <item name="drinkJarGrandpasForgettingElixir" count="1"/>
-                <item name="drinkJarGrandpasForgettingElixir" count="1"/>
-                <item group="traderElectrical" count="3,5"/>
+                <item name="drinkJarGrandpasForgettingElixir" count="1,3"/>
+                <item group="vehiclePartsT0" count="1,3"/>
+                <item group="vehiclePartsMixed" count="1,3"/>
+                <item group="stashOnlyItemsLow" count="1,3"/>
+                <item group="traderElectrical" count="1,3"/>
                 <item name="cntVendingMachine" count="2"/>
                 <item group="weaponsGunParts" count="1,2"/>
-                <item group="weaponsMeleeMixed" count="2,3"/>
-                <item group="weaponsGunsMixed" count="2,3"/>
-                <item group="weaponsGunsT2" count="1"/>
-                <item group="weaponsGunsT3" count="2,3"/>
-                <item group="weaponsGunsT3QL5" count="2,3"/>
-                <item group="groupArmorHeavyMixed" count="1,2"/>
-                <item group="groupArmorHeavyT2" count="2,3"/>
-                <item group="groupArmorLightMixed" count="1,2"/>
-                <item group="groupArmorLightT2" count="2,3"/>
-                <item name="armorMiningHelmet" quality="3,5" mods="modArmorHelmetLight" mod_chance="1"/>
-                <item group="vehiclePartsMixed" count="2,3"/>
+                <item group="weaponsMeleeMixed" count="1,3"/>
+                <item group="weaponsGunsMixed" count="1,3"/>
+                <item group="weaponsGunsT2" count="1,3"/>
+                <item group="weaponsGunsT3" count="1,3"/>
+                <item group="weaponsGunsT3QL5" count="1,3"/>
+                <item group="groupArmorHeavyMixed" count="1,3"/>
+                <item group="groupArmorHeavyT2" count="1,3"/>
+                <item group="groupArmorLightMixed" count="1,3"/>
+                <item group="groupArmorLightT2" count="1,3"/>
+                <item name="armorMiningHelmet" quality="1,3" mods="modArmorHelmetLight" mod_chance="1"/>
+                <item group="vehiclePartsMixed" count="1,3"/>
                 <item name="apparelNightvisionGoggles" count="1"/>
                 <item name="solarbank" count="1"/>
-                <item name="solarCell" count="1,3" quality="3,6"/>
-                <item group="stashOnlyItemsHigh" count="3,4"/>
-                <item name="drinkJarGrandpasForgettingElixir" count="1"/>
-                <item group="tools" count="1,2"/>
-                <item group="rareTools" count="3,4"/>
-                <item group="ammo" count="5,8"/>
+                <item name="solarCell" count="1,3" quality="1,6"/>
+                <item group="stashOnlyItemsHigh" count="1,3"/>
+                <item group="tools" count="1,3"/>
+                <item group="rareTools" count="1,3"/>
+                <item group="ammo" count="5,10"/>
                 <item group="ammoSupplies" count="1"/>
-                <item group="commonBooks" count="4,5"/>
-                <item group="rareBooks" count="2,3"/>
-                <item group="perkBooks" count="2,3"/>
+                <item group="commonBooks" count="1,3"/>
+                <item group="rareBooks" count="1,3"/>
+                <item group="perkBooks" count="1,3"/>
                 <item group="modAllT1SecretStash" count="1,4"/>
                 <item group="modAllT2SecretStash" count="1,4"/>
                 <item group="modAllT3SecretStash" count="1,4"/>

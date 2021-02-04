@@ -4,6 +4,9 @@
             <property name="Tags" value="entity,npc,human,trader"/>
             <property name="Mesh" value="#Entities/Traders?JoelRagdoll.prefab"/>
             <property name="NPCID" value="tradersin"/>
+
+            <!--<property name="TintMaterial1" value="84,84,84"/>
+	<property name="ReplaceMaterial2" value="#Entities/Zombies?Zombies/Materials/feral_eye.mat"/>-->
         </entity_class>
     </append>
 </SinModVIP>

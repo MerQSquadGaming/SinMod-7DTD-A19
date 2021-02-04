@@ -11,7 +11,7 @@
         trader_id="9" dialog_id="trader" />
     </append>
 
-    <append xpath="/npc/factions">
+<!--<append xpath="/npc/factions">
         <faction name="merqsquad">
             <relationship name="trader" value="neutral"/>
             <relationship name="bandits" value="hate"/>
@@ -20,5 +20,5 @@
             <relationship name="animals" value="neutral"/>
             <relationship name="undead" value="hate"/>
         </faction>
-    </append>
+    </append>-->
 </SinModVIP>

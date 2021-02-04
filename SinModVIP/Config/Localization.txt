@@ -1,4 +1,6 @@
 Key,UsedInMainMenu,Source,Context,Changes,English
-dialog_trader_response_shop,Quest,Dialogs,,,What the fuck you got?,,
+dialog_trader_response_specialjobshave,Quest,Dialogs,,,Looking to help MerQ Squad?,,
+dialog_trader_statement_start,Quest,Dialogs,,,"Hey Fucker, what do you want?",,
+dialog_trader_response_shop,Quest,Dialogs,,,Got any worth a damn?,,
 trader_sin,POI,POI,,x,Trader Sin,,
 npcTraderSin,entityclasses,Entity,,,Trader Sin,,
