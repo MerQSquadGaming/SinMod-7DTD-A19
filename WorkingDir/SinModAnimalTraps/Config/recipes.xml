@@ -1,0 +1,22 @@
+<SinModAnimalTraps>
+    <recipe name="ammoBait" count="1" scrapable="false">
+        <ingredient name="resourceYuccaFibers" count="10"/>
+        <ingredient name="foodCropCorn" count="1"/>
+    </recipe>
+    <recipe name="ammoBait" count="1" scrapable="false">
+        <ingredient name="resourceYuccaFibers" count="5"/>
+        <ingredient name="foodCropBlueberries" count="1"/>
+    </recipe>
+
+
+    <recipe name="trapChickenEmpty" count="1" scrapable="false">
+        <ingredient name="resourceWood" count="15"/>
+        <ingredient name="resourceNail" count="1"/>
+        <ingredient name="resourceYuccaFibers" count="5"/>
+    </recipe>
+    <recipe name="trapRabbitEmpty" count="1" scrapable="false">
+        <ingredient name="resourceWood" count="15"/>
+        <ingredient name="resourceNail" count="1"/>
+        <ingredient name="resourceYuccaFibers" count="5"/>
+    </recipe>
+</SinModAnimalTraps>

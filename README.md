@@ -11,16 +11,16 @@
 6. If you do not have a 'Mods' folder, you will need to create one.<br>
 <br>
 <h2> Contents</h2>
-
-•	SinMod60BPM - (v 1.1) - Increases player inventory to 60 slots and unlock with packmule perk like the original.<br>
+•	SinMod60BPM - (v1.1) - Increases player inventory to 60 slots and unlock with packmule perk like the original.<br>
 •	SinModAddedSeatVehicles - (v2.1) - Increases how many players can ride in/on your vehicle with you. Bicycle is only one person, MiniBike allows 2, Motorcycle allows 2, Gyrocopter allows 2, and the 4x4Truck allows 6.<br>
 •	SinModAdmin - (v2.2) - Custom blocks for server hosted locations and events (like lobby or horde arena), indestructible blocks can only be broke with Admin Super Digger.<br>
 •	SinModAmmo - (v2.6.) - Incendiary rounds (INC) for 9mm, 7.62mm, .44 Mag., also allows crafting of bulk INC rounds and allows you to dismantle all ammo into base components.<br>
+•   SinModAnimalTraps - (v1.0) - Rabbit and chicken traps require bait to use and over time has a chance to spawn feathers, raw meat, eggs or leather.<br>
 •	SinModAutominer - (v2.2) - Autominer is unlocked through finding all “Art of Mining” books. Once you have read all the books you will be able to craft the autominer, however you will need to have level 4 Grease Monkey to unlock diesel fuel recipe which will need to turn on autominer and collect resources every 3 hours, it will need to be filled each time.<br>
 •	SinModBoulderRespawner - (v2.1) -  Once a boulder or resources block is broke,a small stone (that cannot be picked up)is placed on ground,  a new block will return after a set amount of time. This is great for highly populated servers or servers with small maps and a good amount of players.<br>
 •	SinModCarRespawner - (v2.1.) - Once a car is completely stripped, an invisible block will be placed and after a set amount of time a random car will respawn. This is great for highly populated servers or servers with small maps and a good amount of players.<br>
 •	SinModCraftJail - (v1.0) - Want to add a dungeon or jail at your base but cant craft a jail door? Look no further that’s exactly what this mod allows. Craft Jail door that can be locked, opened and passcoded.<br>
-•	SinModDonorCrate - (v2.2) - Show some love to the player who show you some love, custom supply crate to say thank you to your donors. <br>
+•	SinModDonorCrate - (v2.3) - Show some love to the player who show you some love, custom supply crate to say thank you to your donors. <br>
 •	SinModFlags - (v1.3) - Custom flags added to game, with new models and animation. These flags can be used as landclaim blocks and crafted.<br>
 •	SinModForgeSlotx3 - (v1.0) - Adds back the 3rd slot to forges so you can smelt more items at a time.<br>
 •	SinModLvl6 - (v1.0) - Once Perk/Skill has been mastered, you will be able to craft lvl 6 Tools/Weapons/Armor/Turrets.<br>
@@ -31,13 +31,18 @@
 •	SinModTraps - (v1.3) - Added a fire trap that can be learned in the advanced engineering perk. Craft the empty fire trap, fill it with gas and watch your enemies burn. Once gas has deplete just refill and repeat.<br>
 •	SinModVehicleHorns - (v1.3) - Changed the sound of all vehicle horns.<br>
 •	SinModWorkingKitchen - (v2.4) - Unlocked through the Master Chef skill level 3, allows you to craft stoves that work as campfires, and sinks that can be used a storage and can give you clean drinking water or murky water. Place empty jar in hand left click for drinking water or right click for murky water. To craft sink you must craft a sink filter and then use filter to craft sink.<br>
+•	SinModVIP - (v1.2) - Custom trader "Trader Sin" who carries decor blocks and loot not locked behind secret stash. Trader is designed for use with our donators, resets inventory like regular trader.<br>
 <br>
 <h2>Newly Added</h2>
+•   SinModAnimalTraps - (v1.0) - Rabbit and chicken traps require bait to use and over time has a chance to spawn feathers, raw meat, eggs or leather.<br>
+•	SinModVIP - (v1.2) - Custom trader "Trader Sin" who carries decor blocks and loot not locked behind secret stash. Trader is designed for use with our donators.<br>
 •	SinModWhackAWeed - (v1.1) - Easy to craft grass cutter, allows you to clear grass from ground and not deplete your stamina.<br>
 •	SinModSteelBars - (v1.0) - Upgrade iron bars to steel bars using Forged Steel, or make steel bars straight from the forge with a crucible.<br>
 •	SinModPOILoot - (v1.0) – Cardboard box top piles and double stacked boxes are now lootable in all prefabs. Time to see whats in the garages!<br>
 <br>
 <h2>Change Log</h2>
+•   Added all new animal traps for chickens and rabbits.<br>
+•   Added custom trader who sells decor blocks for base and all other trader loot. <br>
 •   Changed loot quanity and groups for Donor Crate.<br>
 •   Changed sinks to use cloth instead of air filter, as air filter was removed by TFP.<br>
 •   Fixed fire trap EXP exploit.<br>

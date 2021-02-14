@@ -8,3 +8,7 @@ StarterBagDesc,items,item,,,"HEY!!! It's your starter bag place on ground and hi
 
 challengeSinQuest,items,item,,,The Sin Challenge
 challengeSinQuestDesc,items,item,,,"Starter quest series for survivors."
+
+requirementGroupBeginner,Quest,Requirement Group,,,Holding Beginner Weapon
+requirementGroupAdvanced,Quest,Requirement Group,,,Holding Advanced Weapon
+requirementGroupExpert,Quest,Requirement Group,,,Holding Expert Weapon

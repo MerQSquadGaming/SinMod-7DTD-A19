@@ -1,0 +1,15 @@
+Key,Source,Context,Changes,English
+trapChickenEmpty,blocks,Workstation,KgNone,Chicken Trap (Empty),,,,
+trapChickenEmptyDesc,blocks,Workstation,KgNone,Needs Bait,,,,
+
+trapChickenFull,blocks,Workstation,KgNone,Chicken Trap (Baited),,,,
+trapChickenFullDesc,blocks,Workstation,KgNone,Awaiting Prey...,,,,
+
+trapRabbitEmpty,blocks,Workstation,KgNone,Rabbit Trap (Empty),,,,
+trapRabbitEmptyDesc,blocks,Workstation,KgNone,Needs Bait,,,,
+
+trapRabbitFull,blocks,Workstation,KgNone,Rabbit Trap (Baited),,,,
+trapRabbitFullDesc,blocks,Workstation,KgNone,Awaiting Prey ...,,,,
+
+ammoBait,items,Item,,Animal Trap Bait,,,,
+ammoBaitDesc,items,Item,,Use this item to bait animal traps,,,,

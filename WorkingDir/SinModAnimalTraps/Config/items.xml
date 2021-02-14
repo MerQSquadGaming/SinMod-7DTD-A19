@@ -1,0 +1,41 @@
+<SinModAnimalTraps>
+    <append xpath="/items">
+        <item name="ammoBait">
+            <property name="CustomIcon" value="foodVegetableStew"/>
+            <property name="CustomIconTint" value="ffd300"/>
+            <property name="DescriptionKey" value="ammoBaitDesc"/>
+            <property name="Meshfile" value="Items/Crafting/clay" />
+            <property name="Material" value="organic" />
+            <property name="HoldType" value="7" />
+            <property name="CraftingIngredientTime" value="2" />
+            <property name="UnlockedBy" value="trapAnimalSchematic"/>
+            <property class="Action1">
+                <!-- AttackAction -->
+                <property name="Class" value="Repair"/>
+                <property name="Delay" value="0.2"/>
+                <property name="Repair_amount" value="1"/>
+                <property name="Upgrade_hit_offset" value="0"/>
+                <property name="Allowed_upgrade_items" value="ammoBait"/>
+                <property name="UsePowerAttackAnimation" value="false"/>
+            </property>
+            <property name="Group" value="Food/Cooking" />
+        </item>
+
+
+        <item name="trapAnimalSchematic">
+            <property name="Extends" value="schematicMaster"/>
+            <property name="CustomIcon" value="bookFiremansAlmanacHeat"/>
+            <property name="DescriptionKey" value="bookAnimalTrapsDesc"/>
+            <property name="CreativeMode" value="Player"/>
+            <property name="Stacknumber" value="5" />
+            <property name="CustomIcon" value="recipebookAnimalTraps"/>
+            <property name="Unlocks" value="ammoBait,trapChickenEmpty,trapRabbitEmpty"/>
+            <effect_group tiered="false">
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="trapChickenEmpty" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="trapRabbitEmpty" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="ModifyCVar" cvar="ammoBait" operation="set" value="1"/>
+                <triggered_effect trigger="onSelfPrimaryActionEnd" action="GiveExp" exp="50"/>
+            </effect_group>
+        </item>
+    </append>
+</SinModAnimalTraps>

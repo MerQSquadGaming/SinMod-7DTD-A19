@@ -1,0 +1,9 @@
+<SinModAnimalTraps>
+    <append xpath="/lootcontainers/lootgroup[@name='booksAllScaled']">
+        <item name="trapAnimalSchematic" count="1" />
+    </append>
+
+
+
+
+</SinModAnimalTraps>

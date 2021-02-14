@@ -1,0 +1,106 @@
+<SinModAnimalTraps>
+    <append>
+        <block name="trapChickenEmpty">
+            <property name="Extends" value="decoClassicDogHouse"/>
+            <property name="CustomIcon" value="decoClassicDogHouse"/>
+            <property name="CustomIconTint" value="ffd500"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Model" value="Entities/OutdoorDecor/classicDogHousePrefab"/>
+            <property name="Texture" value="282"/>
+            <property name="Class" value="Loot"/>
+            <property name="Material" value="Mwood_weak"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="RandomTintColor1" value="25,15,10" param1="crushed_vehicles"/>
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="trapChicken" />
+                <property name="Item" value="ammoBait" />
+                <property name="ItemCount" value="10" />
+                <property name="UpgradeHitCount" value="1" />
+            </property>
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+            <property name="FilterTags" value="fdecor,fother"/>
+        </block>
+        <block name="trapChicken">
+            <property name="Extends" value="decoClassicDogHouse"/>
+            <property name="Texture" value="196"/>
+            <property name="Class" value="Loot"/>
+            <property name="Material" value="Mwood_weak"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="fdecor,fother"/>
+            <property class="PlantGrowing">
+                <property name="Next" value="trapChickenFull" />
+                <property name="GrowthRate" value="5" />
+                <property name="FertileLevel" value="0" />
+                <property name="IsRandom" value="false" />
+            </property>
+        </block>
+        <block name="trapChickenFull">
+            <property name="Extends" value="decoClassicDogHouse"/>
+            <property name="Class" value="Loot"/>
+            <property name="Material" value="Mwood_weak"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="IsTerrainDecoration" value="true"/>
+            <property name="FilterTags" value="fdecor,fother"/>
+            <property name="LootList" value="25"/>
+        </block>
+        
+
+        <!--
+        <block name="trapRabbit">
+        Entities/OutdoorDecor/largePetCagePrefab
+        <property name="Extends" param1="<excluded defs>" />
+            <property name="CustomIcon" value="decoLargePetCage"/>
+
+        </block>
+        <block name="trapRabbitEmpty">
+        Entities/OutdoorDecor/largePetCagePrefab
+        <property name="Extends" param1="<excluded defs>" />
+            <property name="CustomIcon" value="decoLargePetCage"/>
+            <property name="CustomIconTint" value=""/>
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="trapRabbit" />
+                <property name="Item" value="ammoBait" />
+                <property name="ItemCount" value="10" />
+                <property name="UpgradeHitCount" value="1" />
+            </property>
+
+        </block>-->
+    </append>
+</SinModAnimalTraps>
+
+<!--<block name="Fishing Catch">
+    <property name="Group" value="Fishing" />
+    <property name="CustomIcon" value="rawMeat" />
+    <property name="CustomIconTint" value="7EB2D8" />
+    <property name="Material" value="organic" />
+    <property name="Shape" value="ModelEntity" />
+    <property name="Model" value="Entities/Gore/animal_remainsPrefab" />
+    <property name="Texture" value="22" />
+    <property name="Place" value="TowardsPlacer" />
+    <drop event="Harvest" name="Raw Fish" count="2" prob="1.0" />
+    <drop event="Harvest" name="Bait" count="1" prob=".5" />
+    <drop event="Harvest" name="Raw Fish" count="5" prob="1.0" tool_category="Butcher"/>
+    <drop event="Harvest" name="Bait" count="3" prob="1.0" tool_category="Butcher"/>
+    <drop event="Destroy" name="Unbaited Fishing Pole" count="1" prob="1.0" />
+  </block>
+
+  <block id="1714" name="Full Fishing Trap">
+    <property name="CustomIcon" value="Fishing_Trap" />
+    <property name="Material" value="organic" />
+    <property name="Shape" value="CubeCutoutBackFaces" />
+    <property name="Mesh" value="cutout" />
+    <property name="Texture" value="289" />
+    <property name="Collide" value="movement,rocket,melee" />
+    <drop event="Harvest" name="Raw Fish" count="2,5" prob="1.0" />
+    <drop event="Harvest" name="Bait" count="0,3" prob=".5" />
+    <drop event="Harvest" name="Raw Fish" count="9,12" prob="1.0" tool_category="Butcher"/>
+    <drop event="Harvest" name="Bait" count="6,9" prob="1.0" tool_category="Butcher"/>
+    <drop event="Destroy" name="Fishing Trap" count="1" prob="0.9" />
+    <drop event="Destroy" name="wornBoots" count="1" prob=".02" />
+    <drop event="Destroy" name="canEmpty" count="1,5" prob=".1" />
+    <property name="Group" value="Fishing" />
+  </block>-->
