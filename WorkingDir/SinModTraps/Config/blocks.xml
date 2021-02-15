@@ -1,8 +1,7 @@
 <SinModTraps>
 	<append xpath="/blocks">
 		<block name="trapFireEmpty">
-			<property name="CustomIcon" value="steelBlock" />
-			<property name="CustomIconTint" value="b20000"/>
+			<property name="CustomIcon" value="trapFire" />
 			<property name="DescriptionKey" value="trapFireEmptyDesc"/>
 			<property name="Material" value="Msteel" />
 			<property name="Texture" value="356,352,352,352,352,352" />
@@ -10,15 +9,12 @@
 				<property name="ToBlock" value="trapFire" />
 				<property name="Item" value="ammoKeroseneCan" />
 				<property name="ItemCount" value="10" />
-				<property name="UpgradeHitCount" value="5" />
+				<property name="UpgradeHitCount" value="4" />
 			</property>
 			<drop event="Destroy" count="0" prob="1" />
 			<drop event="Fall" name="scrapMetalPile" count="1" prob="1.0" stick_chance="1" />
 			<property name="UnlockedBy" value="perkAdvancedEngineering"/>
 			<property name="DisplayInfo" value="Description"/>
-			<property name="WorkstationIcon" value="ui_game_symbol_fire"/>
-			<!--<property name="ItemTypeIcon" value="explosion"/>-->
-
 		</block>
 
 		<block name="trapFire">
