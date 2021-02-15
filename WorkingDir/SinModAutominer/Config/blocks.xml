@@ -60,7 +60,6 @@
             <property name="DescriptionKey" value="autoMinerOnDesc"/>
             <property name="DisplayInfo" value="Description"/>
         </block>
-
         <block name="autoMinerCompartment">
             <property name="Material" value="Mmetal"/>
             <property name="CustomIcon" value="controlPanelTop07"/>

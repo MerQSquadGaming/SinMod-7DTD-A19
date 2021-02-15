@@ -1,8 +1,8 @@
 <SinModAutominer>
-    <insertAfter xpath="/progression/perks/perk[@name='perkArtOfMiningComplete']/effect_group/passive_effect[@name='RecipeTagUnlocked']">
+    <insertAfter xpath="/progression/perks/perk[@name='perkArtOfMiningComplete']/effect_group/passive_effect">
         <passive_effect name="RecipeTagUnlocked" operation="base_set" level="1" value="1" tags="autoMinerOff"/>
     </insertAfter>
 
-    <insertAfter xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,ammoDieselCan
-    </insertAfter>
+    <append xpath="/progression/perks/perk[@name='perkGreaseMonkey']/effect_group/passive_effect[@level='4,5']/@tags">,ammoDieselCan
+    </append>
 </SinModAutominer>
