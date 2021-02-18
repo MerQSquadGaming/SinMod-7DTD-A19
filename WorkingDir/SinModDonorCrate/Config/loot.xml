@@ -8,20 +8,17 @@
             <item name="ammoShotgunShell" count="150"/>
         </lootgroup>
         <lootgroup name="DonorSchematic" count="all">
-            <item group="schematicsToolsT0" count="1"/>
-            <item group="schematicsToolsT1" count="1"/>
-            <item group="schematicsToolsT2" count="1"/>
-            <item group="schematicsElectrical" count="1"/>
-            <item group="schematicsModsAndGeneralT0" count="1"/>
-            <item group="schematicsModsAndGeneralT1" count="1"/>
-            <item group="schematicsModsAndGeneralT2" count="1"/>
-            <item group="schematicsToolsT0" count="1"/>
-            <item group="schematicsToolsT1" count="1"/>
-            <item group="schematicsToolsT2" count="1"/>
-            <item group="schematicsWeaponsArmorT0" count="1"/>
-            <item group="schematicsWeaponsArmorT1" count="1"/>
-            <item group="schematicsWeaponsArmorT2" count="1"/>
-            <item group="schematicsVehiclesCommon" count="1"/>
+            <item group="schematicsToolsT0" count="0,2"/>
+            <item group="schematicsToolsT1" count="0,1" prob="0.075"/>
+            <item group="schematicsToolsT2" count="0,1" prob="0.05"/>
+            <item group="schematicsElectrical" count="0,1" prob="0.05"/>
+            <item group="schematicsModsAndGeneralT0" count="0,2"/>
+            <item group="schematicsModsAndGeneralT1" count="0,1"/>
+            <item group="schematicsModsAndGeneralT2" count="0,1" prob="0.1"/>
+            <item group="schematicsWeaponsArmorT0" count="0,2"/>
+            <item group="schematicsWeaponsArmorT1" count="0,1"/>
+            <item group="schematicsWeaponsArmorT2" count="0,1" prob="0.1"/>
+            <item group="schematicsVehiclesCommon" count="0,1" prob="0.05"/>
         </lootgroup>
         <lootgroup name="DonorMeds" count="all">
             <item name="medicalFirstAidKit" count="5"/>
