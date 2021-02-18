@@ -1,0 +1,35 @@
+<SinModVoterCrate>
+    <append xpath="/lootcontainers">
+        <!--Voter Crate-->
+        <lootgroup name="VoterAmmo" count="1,4">
+            <item name="ammo9mmBulletBall" count="0,50"/>
+            <item name="ammo44MagnumBulletBall" count="0,50"/>
+            <item name="ammo762mmBulletBall" count="0,50"/>
+            <item name="ammoShotgunShell" count="0,50"/>
+        </lootgroup>
+        <lootgroup name="VoterSchematic" count="1,3">
+            <item group="schematicsToolsT0" count="0,1"/>
+            <item group="schematicsModsAndGeneralT0" count="0,1"/>
+            <item group="schematicsWeaponsArmorT0" count="0,1"/>
+        </lootgroup>
+        <lootgroup name="VoterMeds" count="all">
+            <item name="medicalFirstAidKit" count="1"/>
+        </lootgroup>
+        <lootgroup name="VoterDrinks" count="0,2">
+            <item name="drinkJarPureMineralWater"/>
+        </lootgroup>
+        <lootgroup name="VoterFood" count="0,2">
+            <item name="foodSteakAndPotato"/>
+        </lootgroup>
+        <lootgroup name="VoterCrate" count="all">
+            <item group="VoterAmmo"/>
+            <item group="VoterSchematic"/>
+            <item group="VoterMeds"/>
+            <item group="VoterDrinks"/>
+            <item group="VoterFood"/>
+        </lootgroup>
+        <lootcontainer id="177" count="1" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate" >
+            <item group="VoterCrate"/>
+        </lootcontainer>
+    </append>
+</SinModVoterCrate>

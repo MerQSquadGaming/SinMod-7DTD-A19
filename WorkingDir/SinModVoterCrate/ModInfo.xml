@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<xml>
+	<ModInfo>
+		<Name value="SinModVoterCrate" />
+		<Description value="Special supply drop for those who vote for our server." />
+		<Author value="Sinistermind81" />
+		<Version value="v1.0" />
+		<Website value="http://www.merqsquad.org" />
+	</ModInfo>
+</xml>
