@@ -30,15 +30,35 @@ ammoDismantleShotgunBreachingSlug,items,Ammo,New,Dismantled - Shotgun Breaching 
 ammoDismantleShotgunShellINC,items,Ammo,New,Dismantled - Shotgun INC Shells,,
 ammoBundleShotgunShellINC,items,Ammo,New,Box of INC Shotgun Shells (100),,
 
-
-
 resourceEmptyFireTip,items,Item Gun,,Empty Incendiary Tip,,
 resourceEmptyFireTipDesc,items,Item Gun,,These bullet tips have been hollowed out to allow to be filled with fire compound for incendiary rounds.,,
 resourceFireTip,items,Item Gun,,Filled Incendiary Tip,,
 resourceFireTipDesc,items,Item Gun,,These bullet tips have been filled with fire compound for incendiary rounds.,,
 
-
-
-
-
 ammoBulletINCDesc,items,Item Gun,,These bullets have been modified to ignite the target on fire on impact.,,
+
+perkPistolPeteHPAmmoLongDesc,progression,perk  book,,Hollow Point Ammunition: These hollow point rounds do more damage on impact. Craft and dismantle HP 9mm ammunition.,,
+
+perkPistolPeteAPAmmoLongDesc,progression,perk  book,,Armor Piercing Ammunition: Armor piercing rounds do considerable more damage against armored targets. Craft and dismantle AP 9mm ammunition.,,
+
+perkPistolPeteCompleteLongDesc,progression,perk  book,,"Powder Burns: Shots from 9mm weapons fired at point blank range ignore 20% of armor and cause bleeding damage. Learn to craft 9mm incendiary (INC) rounds and bulk craft all types of 9mm ammunition as well as diamantle 9mm INC rounds.",,
+
+perkEnforcerHPAmmoDesc,progression,perk  book,,You can craft and dismantle HP .44 Magnum ammunition.,,
+
+perkEnforcerAPAmmoLongDesc,progression,perk  book,,"Armor Piercing Ammunition: Criminal Scum sometimes wear bulletproof vests, so use armor piercing ammo to serve justice. Craft and dismantle AP .44 Ammunition.",,
+
+perkEnforcerCompleteLongDesc,progression,perk  book,,Penetration: .44 regular and HP ammunition can penetrate enemies and hit targets behind them. Bulk Crafting: Too many creeps and not enough ammo. Learn to craft .44 incendiary (INC) rounds and bulk craft all .44 Magnum ammunition as well as diamantle .44 INC rounds.,,
+
+perkSniperHPAmmoLongDesc,progression,perk  book,,Hollow Point Ammunition: Learn to craft and dismantle HP 7.62mm ammunition.,,
+
+perkSniperAPAmmoLongDesc,progression,perk  book,,Armor Piercing Ammunition: Learn to craft and dismantle armor piercing 7.62mm ammunition and do more damage against armored opponents.,,
+
+perkSniperCompleteLongDesc,progression,perk  book,,Ghost: Blend in with your environment and become the ultimate assassin by wearing a camouflage ghillie suit. You can craft a ghillie suit. Learn to craft 7.62mm incendiary (INC) rounds and bulk Craft all 7.62mm ammo as well as dismantle 7.62mm INC rounds.,,
+
+perkShotgunMessiahSlugsLongDesc,progression,perk  book,,Shotgun Slugs: Slugs are like huge bullets that travel much further than buckshot. You can craft and dismantle shotgun slugs.,,
+
+perkShotgunMessiahBreachingSlugsLongDesc,progression,perk  book,,"Breaching Ammunition: Craft and dismantle special ammunition used to breach secure blocks like doors, safes and vaults.",,
+
+perkShotgunMessiahCompleteLongDesc,progression,perk  book,,One shot: Stuck in close quarters and need to make a quick getaway? Blow a hole in the wall with this handy trick. You can one shot most drywall and wooden walls. Learn to craft shotgun shell incendiary (INC) rounds and bulk craft all shotgun ammo as well as dismantle shotgun shell incendiary INC rounds.,,
+
+
