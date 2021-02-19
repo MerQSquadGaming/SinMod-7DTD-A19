@@ -1,53 +1,126 @@
 <SinModAnimalTraps>
-    <append>
+    <append xpath="/blocks">
         <block name="trapChickenEmpty">
-            <property name="Extends" value="decoClassicDogHouse"/>
+            <property name="Material" value="Mwood_weak"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Texture" value="282"/>
+            <property name="Model" value="Entities/OutdoorDecor/classicDogHousePrefab"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="2"/>
             <property name="CustomIcon" value="decoClassicDogHouse"/>
             <property name="CustomIconTint" value="ffd500"/>
-            <property name="Shape" value="ModelEntity"/>
-            <property name="Model" value="Entities/OutdoorDecor/classicDogHousePrefab"/>
-            <property name="Texture" value="282"/>
-            <property name="Class" value="Loot"/>
-            <property name="Material" value="Mwood_weak"/>
             <property name="StabilitySupport" value="false"/>
-            <property name="IsTerrainDecoration" value="true"/>
-            <property name="RandomTintColor1" value="25,15,10" param1="crushed_vehicles"/>
             <property class="UpgradeBlock">
                 <property name="ToBlock" value="trapChicken" />
                 <property name="Item" value="ammoBait" />
-                <property name="ItemCount" value="10" />
+                <property name="ItemCount" value="5" />
                 <property name="UpgradeHitCount" value="1" />
             </property>
             <property class="RepairItems">
                 <property name="resourceWood" value="10"/>
             </property>
+            <property event="Destroy" name="trapChickenEmpty" count="1"/>
             <property name="FilterTags" value="fdecor,fother"/>
+            <property name="UnlockedBy" value="trapAnimalSchematic"/>
+            <property name="DescriptionKey" value="trapChickenEmptyDesc"/>
+            <property name="DisplayInfo" value="Description"/>
         </block>
         <block name="trapChicken">
-            <property name="Extends" value="decoClassicDogHouse"/>
-            <property name="Texture" value="196"/>
-            <property name="Class" value="Loot"/>
             <property name="Material" value="Mwood_weak"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Texture" value="282"/>
+            <property name="CreativeMode" value="None"/>
+            <property name="Model" value="Entities/OutdoorDecor/classicDogHousePrefab"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="2"/>
             <property name="StabilitySupport" value="false"/>
-            <property name="IsTerrainDecoration" value="true"/>
             <property name="FilterTags" value="fdecor,fother"/>
-            <property class="PlantGrowing">
-                <property name="Next" value="trapChickenFull" />
-                <property name="GrowthRate" value="5" />
-                <property name="FertileLevel" value="0" />
-                <property name="IsRandom" value="false" />
-            </property>
+            <property name="Class" value="PlantGrowing"/>
+            <property name="PlantGrowing.Next" value="trapChickenFull"/>
+            <property name="PlantGrowing.GrowthRate" value="2"/>
+            <!-- setting 1 is erratic. Recommend 2+ for testing or use -->
+            <property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="DescriptionKey" value="trapChickenDesc"/>
+            <property name="DisplayInfo" value="Description"/>
         </block>
         <block name="trapChickenFull">
-            <property name="Extends" value="decoClassicDogHouse"/>
-            <property name="Class" value="Loot"/>
+            <property name="CreativeMode" value="None"/>
             <property name="Material" value="Mwood_weak"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Texture" value="282"/>
+            <property name="Model" value="Entities/OutdoorDecor/classicDogHousePrefab"/>
             <property name="StabilitySupport" value="false"/>
-            <property name="IsTerrainDecoration" value="true"/>
+            <property name="Class" value="Loot"/>
             <property name="FilterTags" value="fdecor,fother"/>
-            <property name="LootList" value="25"/>
+            <property name="LootList" value="178"/>
+            <property name="DowngradeBlock" value="trapChickenEmpty"/>
+            <property name="DescriptionKey" value="trapChickenFullDesc"/>
+            <property name="DisplayInfo" value="Description"/>
         </block>
-        
+
+        <block name="trapRabbitEmpty">
+            <property name="Material" value="Mwood_weak"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Texture" value="282"/>
+            <property name="Model" value="Entities/OutdoorDecor/largePetCagePrefab"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="2"/>
+            <property name="CustomIcon" value="decoLargePetCage"/>
+            <property name="CustomIconTint" value="ffd500"/>
+            <property name="StabilitySupport" value="false"/>
+            <property class="UpgradeBlock">
+                <property name="ToBlock" value="trapRabbit" />
+                <property name="Item" value="ammoBait" />
+                <property name="ItemCount" value="5" />
+                <property name="UpgradeHitCount" value="1" />
+            </property>
+            <property class="RepairItems">
+                <property name="resourceWood" value="10"/>
+            </property>
+            <property event="Destroy" name="trapChickenEmpty" count="1"/>
+            <property name="FilterTags" value="fdecor,fother"/>
+            <property name="UnlockedBy" value="trapAnimalSchematic"/>
+            <property name="DescriptionKey" value="trapRabbitEmptyDesc"/>
+            <property name="DisplayInfo" value="Description"/>
+        </block>
+        <block name="trapRabbit">
+            <property name="Material" value="Mwood_weak"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Texture" value="282"/>
+            <property name="CreativeMode" value="None"/>
+            <property name="Model" value="Entities/OutdoorDecor/largePetCagePrefab"/>
+            <property name="Path" value="solid"/>
+            <property name="Place" value="TowardsPlacerInverted"/>
+            <property name="ImposterExchange" value="imposterBlock" param1="2"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="FilterTags" value="fdecor,fother"/>
+            <property name="Class" value="PlantGrowing"/>
+            <property name="PlantGrowing.Next" value="trapRabbitFull"/>
+            <property name="PlantGrowing.GrowthRate" value="180"/>
+            <!-- setting 1 is erratic. Recommend 2+ for testing or use -->
+            <property name="PlantGrowing.FertileLevel" value="0"/>
+            <property name="PlantGrowing.IsRandom" value="false"/>
+            <property name="DescriptionKey" value="trapRabbitDesc"/>
+            <property name="DisplayInfo" value="Description"/>
+        </block>
+        <block name="trapRabbitFull">
+            <property name="CreativeMode" value="None"/>
+            <property name="Material" value="Mwood_weak"/>
+            <property name="Shape" value="ModelEntity"/>
+            <property name="Texture" value="282"/>
+            <property name="Model" value="Entities/OutdoorDecor/largePetCagePrefab"/>
+            <property name="StabilitySupport" value="false"/>
+            <property name="Class" value="Loot"/>
+            <property name="FilterTags" value="fdecor,fother"/>
+            <property name="LootList" value="179"/>
+            <property name="DowngradeBlock" value="trapRabbitEmpty"/>
+            <property name="DescriptionKey" value="trapRabbitFullDesc"/>
+            <property name="DisplayInfo" value="Description"/>
+        </block>
 
         <!--
         <block name="trapRabbit">

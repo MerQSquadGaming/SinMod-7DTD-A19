@@ -1,22 +1,30 @@
 <SinModAnimalTraps>
-    <recipe name="ammoBait" count="1" scrapable="false">
-        <ingredient name="resourceYuccaFibers" count="10"/>
-        <ingredient name="foodCropCorn" count="1"/>
-    </recipe>
-    <recipe name="ammoBait" count="1" scrapable="false">
-        <ingredient name="resourceYuccaFibers" count="5"/>
-        <ingredient name="foodCropBlueberries" count="1"/>
-    </recipe>
+    <append xpath="/recipes">
+        <recipe name="ammoBait" count="1" scrapable="false" tags="learnable">
+            <ingredient name="resourceYuccaFibers" count="15"/>
+            <ingredient name="foodCropCorn" count="1"/>
+        </recipe>
 
+        <recipe name="ammoBait" count="1" scrapable="false" tags="learnable">
+            <ingredient name="resourceYuccaFibers" count="15"/>
+            <ingredient name="foodCropBlueberries" count="1"/>
+        </recipe>
 
-    <recipe name="trapChickenEmpty" count="1" scrapable="false">
-        <ingredient name="resourceWood" count="15"/>
-        <ingredient name="resourceNail" count="1"/>
-        <ingredient name="resourceYuccaFibers" count="5"/>
-    </recipe>
-    <recipe name="trapRabbitEmpty" count="1" scrapable="false">
-        <ingredient name="resourceWood" count="15"/>
-        <ingredient name="resourceNail" count="1"/>
-        <ingredient name="resourceYuccaFibers" count="5"/>
-    </recipe>
+        <recipe name="ammoBait" count="1" scrapable="false" tags="learnable">
+            <ingredient name="resourceYuccaFibers" count="15"/>
+            <ingredient name="foodCropPumpkin" count="1"/>
+        </recipe>
+
+        <recipe name="trapChickenEmpty" count="1" scrapable="false" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceWood" count="25"/>
+            <ingredient name="resourceNail" count="10"/>
+            <ingredient name="resourceYuccaFibers" count="25"/>
+        </recipe>
+        
+        <recipe name="trapRabbitEmpty" count="1" scrapable="false" craft_area="workbench" tags="learnable">
+            <ingredient name="resourceWood" count="25"/>
+            <ingredient name="resourceNail" count="10"/>
+            <ingredient name="resourceYuccaFibers" count="25"/>
+        </recipe>
+    </append>
 </SinModAnimalTraps>

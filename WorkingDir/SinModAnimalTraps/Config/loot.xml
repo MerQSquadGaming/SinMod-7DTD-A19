@@ -1,9 +1,28 @@
 <SinModAnimalTraps>
-    <append xpath="/lootcontainers/lootgroup[@name='booksAllScaled']">
-        <item name="trapAnimalSchematic" count="1" />
+    <append xpath="/lootcontainers">
+        <lootgroup name="trapRabbit" count="all">
+            <item name="resourceLeather" count="0,4"/>
+            <item name="foodRawMeat" count="0,5"/>
+            <item name="resourceBone" count="0,5"/>
+            <item name="foodRottingFlesh" count="0,5"/>
+        </lootgroup>-->
+
+        <lootgroup name="trapChicken" count="all">
+            <item name="resourceFeather" count="1,25"/>
+            <item name="foodEgg" count="0,4"/>
+            <item name="foodRawMeat" count="0,5"/>
+            <item name="resourceBone" count="0,5"/>
+            <item name="foodRottingFlesh" count="0,5"/>
+        </lootgroup>
+
+        <lootcontainer id="178" count="1" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate" >
+            <item group="trapChicken"/>
+        </lootcontainer>
+
+        <lootcontainer id="179" count="1" size="8,4" destroy_on_close="true" sound_open="SupplyDrops/open_supply_crate" sound_close="SupplyDrops/close_supply_crate" loot_quality_template="qualBaseTemplate" >
+            <item group="trapRabbit"/>
+        </lootcontainer>
     </append>
 
-
-
-
+    
 </SinModAnimalTraps>

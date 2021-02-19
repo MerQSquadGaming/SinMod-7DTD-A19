@@ -2,14 +2,23 @@ Key,Source,Context,Changes,English
 trapChickenEmpty,blocks,Workstation,KgNone,Chicken Trap (Empty),,,,
 trapChickenEmptyDesc,blocks,Workstation,KgNone,Needs Bait,,,,
 
-trapChickenFull,blocks,Workstation,KgNone,Chicken Trap (Baited),,,,
-trapChickenFullDesc,blocks,Workstation,KgNone,Awaiting Prey...,,,,
+trapChicken,blocks,Workstation,KgNone,Chicken Trap (Baited),,,,
+trapChickenDesc,blocks,Workstation,KgNone,Awaiting Prey...,,,,
+
+trapChickenFull,blocks,Workstation,KgNone,Chicken Trap (Full),,,,
+trapChickenFullDesc,blocks,Workstation,KgNone,Collect Items,,,,
 
 trapRabbitEmpty,blocks,Workstation,KgNone,Rabbit Trap (Empty),,,,
 trapRabbitEmptyDesc,blocks,Workstation,KgNone,Needs Bait,,,,
 
-trapRabbitFull,blocks,Workstation,KgNone,Rabbit Trap (Baited),,,,
-trapRabbitFullDesc,blocks,Workstation,KgNone,Awaiting Prey ...,,,,
+trapRabbit,blocks,Workstation,KgNone,Rabbit Trap (Baited),,,,
+trapRabbitDesc,blocks,Workstation,KgNone,Awaiting Prey...,,,,
+
+trapRabbitFull,blocks,Workstation,KgNone,Rabbit Trap (Full),,,,
+trapRabbitFullDesc,blocks,Workstation,KgNone,Collect Items,,,,
 
 ammoBait,items,Item,,Animal Trap Bait,,,,
 ammoBaitDesc,items,Item,,Use this item to bait animal traps,,,,
+
+trapAnimalSchematic,items,Item,,Animal Traps Book,,,,
+trapAnimalSchematicDesc,items,Item,,"Teaches you how to build animal traps to collect meat, eggs, leather, and feathers.",,,,
